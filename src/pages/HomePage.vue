@@ -1,7 +1,7 @@
 <template>
     <div>
         <NavigationMenu />
-        <HeroSection HeroText="Test" />
+        <HeroSection />
         <ProjectGrid :projects="projects" />
         <FooterMenu />
     </div>

@@ -1,20 +1,25 @@
 [
   {
     "id": 1,
-    "title": "Project One",
-    "tag": "Web Development",
-    "coverImage": "/assets/images/project-one.jpg",
+    "rnd": false,
 
+    "title": "Tribute",
+    "tag": "Robotics / AI",
+    "coverImage": "src/assets/images/test-img.jpg",
+
+    "client": "ZHdK",
     "date": "December 24 – January 25",
     "description": "A short description of Project One.",
-    "image": "/assets/images/project-one.jpg",
+    "image": "src/assets/images/test-img.jpg",
     "details": "Detailed information about Project One."
   },
   {
     "id": 2,
-    "title": "Project Two",
-    "tag": "Web Development",
-    "coverImage": "/assets/images/project-one.jpg",
+    "rnd": false,
+
+    "title": "Bouyant",
+    "tag": "Soft Architecture",
+    "coverImage": "src/assets/images/test-img.jpg",
 
     "description": "A short description of Project Two.",
     "image": "/assets/images/project-two.jpg",
@@ -22,9 +27,11 @@
   },
   {
     "id": 3,
-    "title": "Project Three",
-    "tag": "Web Development",
-    "coverImage": "/assets/images/project-one.jpg",
+    "rnd": false,
+
+    "title": "UpCircle",
+    "tag": "Digital Product Design",
+    "coverImage": "src/assets/images/test-img.jpg",
 
     "description": "A short description of Project Three.",
     "image": "/assets/images/project-three.jpg",
@@ -32,9 +39,11 @@
   },
   {
     "id": 4,
-    "title": "Project Four",
-    "tag": "Web Development",
-    "coverImage": "/assets/images/project-one.jpg",
+    "rnd": false,
+
+    "title": "Blocksack",
+    "tag": "Social Design",
+    "coverImage": "src/assets/images/test-img.jpg",
 
     "description": "A short description of Project Four.",
     "image": "/assets/images/project-four.jpg",
@@ -42,9 +51,11 @@
   },
   {
     "id": 5,
-    "title": "Project Five",
-    "tag": "Web Development",
-    "coverImage": "/assets/images/project-one.jpg",
+    "rnd": false,
+
+    "title": "Toxic Relation",
+    "tag": "Data Visualization",
+    "coverImage": "src/assets/images/test-img.jpg",
 
     "description": "A short description of Project Five.",
     "image": "/assets/images/project-five.jpg",
@@ -52,9 +63,71 @@
   },
   {
     "id": 6,
-    "title": "Project Six",
-    "tag": "Web Development",
-    "coverImage": "/assets/images/project-one.jpg",
+    "rnd": false,
+
+    "title": "Kleinkram",
+    "tag": "Digital Product Design",
+    "coverImage": "src/assets/images/test-img.jpg",
+
+    "description": "A short description of Project Six.",
+    "image": "/assets/images/project-six.jpg",
+    "details": "Detailed information about Project Six."
+  },
+  {
+    "id": 7,
+    "rnd": false,
+
+    "title": "Asport",
+    "tag": "Digital Product Design",
+    "coverImage": "src/assets/images/test-img.jpg",
+
+    "description": "A short description of Project Six.",
+    "image": "/assets/images/project-six.jpg",
+    "details": "Detailed information about Project Six."
+  },
+  {
+    "id": 8,
+    "rnd": false,
+
+    "title": "The bed as a tool",
+    "tag": "Health Design",
+    "coverImage": "src/assets/images/test-img.jpg",
+
+    "description": "A short description of Project Six.",
+    "image": "/assets/images/project-six.jpg",
+    "details": "Detailed information about Project Six."
+  },
+  {
+    "id": 9,
+    "rnd": false,
+
+    "title": "Spelly",
+    "tag": "Digital Product Design",
+    "coverImage": "src/assets/images/test-img.jpg",
+
+    "description": "A short description of Project Six.",
+    "image": "/assets/images/project-six.jpg",
+    "details": "Detailed information about Project Six."
+  },
+  {
+    "id": 10,
+    "rnd": true,
+
+    "title": "What color is your name?",
+    "tag": "Experimental Interaction",
+    "coverImage": "src/assets/images/test-img.jpg",
+
+    "description": "A short description of Project Six.",
+    "image": "/assets/images/project-six.jpg",
+    "details": "Detailed information about Project Six."
+  },
+  {
+    "id": 11,
+    "rnd": true,
+
+    "title": "Traily",
+    "tag": "Startup Founding",
+    "coverImage": "src/assets/images/test-img.jpg",
 
     "description": "A short description of Project Six.",
     "image": "/assets/images/project-six.jpg",

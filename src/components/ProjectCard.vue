@@ -1,10 +1,9 @@
 <template>
-    <div class="project-card">
-        <img :src="project.image" :alt="project.title" />
+    <router-link :to="`/${project.id}`" class="project-card">
         <h3>{{ project.title }}</h3>
-        <p>{{ project.description }}</p>
-        <router-link :to="`/projects/${project.id}`">View Details</router-link>
-    </div>
+        <p>{{ project.tag }}</p>
+        <img :src="project.coverImage" :alt="project.title" />
+    </router-link>
 </template>
 
 <script>
@@ -18,4 +17,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+img {
+    width: 100%;
+}
+</style>
