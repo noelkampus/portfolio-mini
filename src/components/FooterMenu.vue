@@ -13,4 +13,21 @@
 <script>
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 0 0 0;
+}
+
+.footer-wrapper__credit {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-wrapper__links {
+  display: flex;
+  flex-direction: row;
+  column-gap: $spacing-lg;
+}
+</style>

@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "size": "medium",
     "rnd": false,
 
     "title": "Tribute",
@@ -9,13 +10,15 @@
 
     "client": "ZHdK",
     "date": "December 24 – January 25",
-    "description": "A short description of Project One.",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "image": "src/assets/images/test-img.jpg",
+    "image2": "src/assets/images/test2-img.jpg",
     "details": "Detailed information about Project One."
   },
   {
     "id": 2,
     "rnd": false,
+    "size": "large",
 
     "title": "Bouyant",
     "tag": "Soft Architecture",
@@ -28,6 +31,7 @@
   {
     "id": 3,
     "rnd": false,
+    "size": "small",
 
     "title": "UpCircle",
     "tag": "Digital Product Design",
@@ -40,6 +44,7 @@
   {
     "id": 4,
     "rnd": false,
+    "size": "medium",
 
     "title": "Blocksack",
     "tag": "Social Design",
@@ -52,6 +57,7 @@
   {
     "id": 5,
     "rnd": false,
+    "size": "medium",
 
     "title": "Toxic Relation",
     "tag": "Data Visualization",
@@ -64,6 +70,7 @@
   {
     "id": 6,
     "rnd": false,
+    "size": "medium",
 
     "title": "Kleinkram",
     "tag": "Digital Product Design",
@@ -76,6 +83,7 @@
   {
     "id": 7,
     "rnd": false,
+    "size": "medium",
 
     "title": "Asport",
     "tag": "Digital Product Design",
@@ -88,6 +96,7 @@
   {
     "id": 8,
     "rnd": false,
+    "size": "medium",
 
     "title": "The bed as a tool",
     "tag": "Health Design",
@@ -100,6 +109,7 @@
   {
     "id": 9,
     "rnd": false,
+    "size": "medium",
 
     "title": "Spelly",
     "tag": "Digital Product Design",
@@ -112,6 +122,7 @@
   {
     "id": 10,
     "rnd": true,
+    "size": "medium",
 
     "title": "What color is your name?",
     "tag": "Experimental Interaction",
@@ -124,6 +135,7 @@
   {
     "id": 11,
     "rnd": true,
+    "size": "medium",
 
     "title": "Traily",
     "tag": "Startup Founding",

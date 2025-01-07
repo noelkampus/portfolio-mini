@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: Aeonik;
+}
+
 /* Root Colors */
 $white: #ffffff;
 $black: #181818;
@@ -6,7 +15,7 @@ $black: #181818;
 $background-01: $white;
 $background-02: $white;
 
-$text: $black;
+$text-01: $black;
 
 /* Dark Mode Colors*/
 @media (prefers-color-scheme: dark) {
@@ -17,19 +26,85 @@ $text: $black;
 }
 
 /* Typography */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../fonts/aeonik-regular.otf') format('otf');
+}
+
+body {
+  font-family: 'Aeonik', sans-serif;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  line-height: 120%;
+  color: $text-01;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
+h1 {
+  font-size: 2rem;
 }
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 130%;
+  color: $text-01;
+}
+
+span {
+  font-size: 0.875rem;
+  color: $text-01;
+}
+
+.nav-text {
+  font-size: 0.875rem;
+  color: $text-01;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 0.875rem;
+  color: $text-01;
+  text-decoration: none;
+}
+
+/* Spacing */
+$spacing-xxs: 0.25rem;
+$spacing-xs: 0.5rem;
+$spacing-sm: 0.75rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.25rem;
+$spacing-xl: 1.5rem;
+$spacing-xxl: 2rem;
+$spacing-3xl: 2.5rem;
+$spacing-4xl: 3rem;
+$spacing-5xl: 4rem;
+$spacing-6xl: 5rem;
+
+/* Layout */
+$grid-cells: 6;
+$grid-item-size: 1fr;

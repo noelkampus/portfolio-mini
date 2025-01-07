@@ -18,10 +18,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 16px;
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+    column-gap: $spacing-lg;
+    row-gap: $spacing-5xl;
 }
 </style>

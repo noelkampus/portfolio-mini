@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="page-wrapper">
         <NavigationMenu />
         <HeroSection />
         <ProjectGrid :projects="projects" />
@@ -23,3 +23,5 @@ export default {
     }
 };
 </script>
+
+<style lang="scss" scoped></style>

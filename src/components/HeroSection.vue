@@ -1,7 +1,7 @@
 <template>
     <section class="hero-section__wrapper">
         <div class="hero-section__content">
-            <h1>{{ heroText }}</h1>
+            <h4>{{ heroText }}</h4>
         </div>
     </section>
 </template>
@@ -16,4 +16,16 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.hero-section__wrapper {
+    display: grid;
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+    gap: $spacing-lg;
+
+    padding: 30vh 0 20vh 0;
+}
+
+.hero-section__content {
+    grid-column: 1 / 5;
+}
+</style>
