@@ -1,9 +1,7 @@
 <template>
-    <div v-if="project">
-        <img :src="project.image" :alt="project.title" />
-        <img v-if="project.image2" :src="project.image2" :alt="project.title" />
-        <p>{{ project.process }}</p>
-        <!-- <router-link to="/">Back to Home</router-link> -->
+    <div v-if="project" class="project-content-section__wrapper">
+        <img v-if="project.coverImage" :src="project.coverImage" :alt="project.title" />
+        <img v-if="project.image1" :src="project.image1" :alt="project.title" />
     </div>
 </template>
 
@@ -24,15 +22,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.project-hero-section__wrapper {
-    display: grid;
-    grid-template-columns: repeat($grid-cells, $grid-item-size);
-    gap: $spacing-lg;
-
-    padding: 30vh 0 20vh 0;
-}
-
-.project-hero-section__content {
-    grid-column: 1 / 5;
+.project-content-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-lg;
 }
 </style>

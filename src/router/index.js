@@ -1,19 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../pages/HomePage.vue'
 import RnDPage from '../pages/RnDPage.vue'
-import AboutMePage from '../pages/AboutMePage.vue'
+import AboutPage from '../pages/AboutPage.vue'
 import ProjectPage from '../pages/ProjectPage.vue'
 
 const routes = [
   { path: '/', component: HomePage },
   { path: '/RnD', component: RnDPage },
-  { path: '/AboutMe', component: AboutMePage },
+  { path: '/About', component: AboutPage },
   { path: '/:id', component: ProjectPage },
 ]
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior() {
+    // always scroll to top
+    return { top: 0 }
+  },
 })
 
 export default router

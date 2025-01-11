@@ -9,20 +9,19 @@
 
 /* Root Colors */
 $white: #ffffff;
+$white100: #f5f5f5;
+
 $black: #181818;
 
 /* Semantic Colors */
-$background-01: $white;
-$background-02: $white;
+$background-primary: $white100;
+$background-secondary: $white;
 
 $text-01: $black;
+$text-blend: $background-primary;
 
-/* Dark Mode Colors*/
-@media (prefers-color-scheme: dark) {
-  $background-01: $black;
-  $background-02: $black;
-
-  $text: $white;
+html {
+  background-color: $background-primary;
 }
 
 /* Typography */
@@ -75,20 +74,28 @@ p {
   color: $text-01;
 }
 
-span {
-  font-size: 0.875rem;
-  color: $text-01;
-}
-
-.nav-text {
+a {
   font-size: 0.875rem;
   color: $text-01;
   text-decoration: none;
 }
 
-.nav-link {
+span {
   font-size: 0.875rem;
   color: $text-01;
+  letter-spacing: 1%;
+}
+
+.nav-text {
+  font-size: 0.875rem;
+  color: $text-blend;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.nav-link {
+  font-size: 0.875rem;
+  color: $text-blend;
   text-decoration: none;
 }
 
