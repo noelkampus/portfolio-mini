@@ -1,7 +1,7 @@
 <template>
   <div class="footer-wrapper">
     <div class="fotter-wrapper__credit">
-      <span>© 2025 – Developed by me</span>
+      <span>© 2025 – Designed and developed by me</span>
     </div>
     <div class="footer-wrapper__links">
       <a class="footer-link" href="https://www.linkedin.com/in/noelkampus/" target="_blank">LinkedIn</a>

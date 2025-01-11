@@ -1,6 +1,6 @@
 <template>
   <div class="project-grid">
-    <ProjectCard v-for="project in projects" :key="project.id" :project="project" />
+    <ProjectCard v-for="project in filteredProjects" :key="project.id" :project="project" />
   </div>
 </template>
 
@@ -13,6 +13,11 @@ export default {
     projects: {
       type: Array,
       required: true
+    }
+  },
+  computed: {
+    filteredProjects() {
+      return this.projects.filter(project => project.rnd === false);
     }
   }
 };

@@ -1,38 +1,17 @@
 <template>
-  <div v-if="project" class="project-hero-section__wrapper">
-    <h4 class="project-hero-section__project-title">{{ project.title }}</h4>
-    <div class="project-hero-section__project-description">
-      <h4>{{ project.description }}</h4>
-      <p>{{ project.description02 }}</p>
-    </div>
-
-
-    <div class="project-hero-section__details">
-      <div class="project-details__item">
-        <p>Role</p>
-        <p>{{ project.role }}</p>
-      </div>
-      <div class="project-details__item">
-        <p>Client</p>
-        <p>{{ project.client }}</p>
-      </div>
-      <div class="project-details__item">
-        <p>Contributors</p>
-        <p>{{ project.contributors }}</p>
-      </div>
-      <div v-if="project.live" class="project-details__item">
-        <p>Live</p>
-        <a :href="project.live" target="_blank" rel="noopener noreferrer">{{ project.live }}</a>
-      </div>
-    </div>
-
+  <SectionFiller v-if="project.process1" />
+  <div v-if="project.process1" class="project-content-text-section__wrapper">
+    <h4 class="project-hero-section__project-title">{{ project.process1 }}</h4>
   </div>
+  <SectionFiller v-if="project.process1" />
 </template>
 
 <script>
 import projectsData from "../data/projects.json";
+import SectionFiller from "../components/SectionFiller.vue";
 
 export default {
+  components: { SectionFiller },
   data() {
     return {
       project: null
@@ -46,35 +25,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.project-hero-section__wrapper {
+.project-content-text-section__wrapper {
   display: grid;
   grid-template-columns: repeat($grid-cells, $grid-item-size);
   gap: $spacing-lg;
 
-  padding: 30vh 0 15vh 0;
+  padding: 10vh 0 10vh 0;
 }
 
 .project-hero-section__project-title {
-  grid-column: 1 / 2;
-}
-
-.project-hero-section__project-description {
-  display: flex;
-  flex-direction: column;
-  row-gap: $spacing-4xl;
   grid-column: 2 / 5;
-}
-
-.project-hero-section__details {
-  display: flex;
-  flex-direction: column;
-  row-gap: $spacing-xl;
-  grid-column: 6 / 7;
-}
-
-.project-details__item {
-  display: flex;
-  flex-direction: column;
-  row-gap: $spacing-xxs;
 }
 </style>

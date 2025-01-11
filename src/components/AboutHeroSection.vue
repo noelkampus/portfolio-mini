@@ -1,27 +1,24 @@
 <template>
-  <div class="project-hero-section__wrapper">
-    <h4 class="project-hero-section__project-title">About</h4>
-    <h4 class="project-hero-section__project-description">{{ about.description }}</h4>
+  <div class="about-hero-section__wrapper">
+    <h4 class="about-hero-section__title">About</h4>
+    <h4 class="about-hero-section__description">{{ aboutDescription }}</h4>
   </div>
 </template>
 
 <script>
-import about from "../data/about.json";
+import aboutData from "../data/about.json";
 
 export default {
   data() {
     return {
-      about: null
+      aboutDescription: aboutData.description
     };
-  },
-  created() {
-    this.about = about;
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.project-hero-section__wrapper {
+.about-hero-section__wrapper {
   display: grid;
   grid-template-columns: repeat($grid-cells, $grid-item-size);
   gap: $spacing-lg;
@@ -29,11 +26,11 @@ export default {
   padding: 15vh 0 5vh 0;
 }
 
-.project-hero-section__project-title {
+.about-hero-section__title {
   grid-column: 1 / 2;
 }
 
-.project-hero-section__project-description {
+.about-hero-section__description {
   display: flex;
   flex-direction: column;
   row-gap: $spacing-4xl;
