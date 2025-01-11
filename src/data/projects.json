@@ -6,14 +6,19 @@
 
     "title": "Tribute",
     "tag": "Robotics / AI",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "src/assets/images/test4-img.jpg",
 
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "description02": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+
+    "role": "Interaction Design, Visual Design, Development",
     "client": "ZHdK",
     "date": "December 24 – January 25",
-    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "image": "src/assets/images/test-img.jpg",
-    "image2": "src/assets/images/test2-img.jpg",
-    "details": "Detailed information about Project One."
+    "contributors": "John Doe, Jane Doe",
+    "live": "https://www.google.com",
+
+    "image1": "src/assets/images/test2-img.jpg",
+    "image2": "src/assets/images/test2-img.jpg"
   },
   {
     "id": 2,
@@ -48,7 +53,7 @@
 
     "title": "Blocksack",
     "tag": "Social Design",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "src/assets/images/test3-img.jpg",
 
     "description": "A short description of Project Four.",
     "image": "/assets/images/project-four.jpg",
@@ -61,7 +66,7 @@
 
     "title": "Toxic Relation",
     "tag": "Data Visualization",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "src/assets/images/test2-img.jpg",
 
     "description": "A short description of Project Five.",
     "image": "/assets/images/project-five.jpg",

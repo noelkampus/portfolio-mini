@@ -12,7 +12,7 @@
     <div class="nav-wrapper__links">
       <router-link to="/" class="nav-link" href="">Projects</router-link>
       <router-link to="/RnD" class="nav-link" href="">RnD</router-link>
-      <router-link to="/AboutMe" class="nav-link" href="">About me</router-link>
+      <router-link to="/About" class="nav-link" href="">About</router-link>
       <a href="mailto:noel@kampus.ch" class="nav-link">noel@kampus.ch</a>
     </div>
   </div>
@@ -49,7 +49,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  column-gap: $spacing-lg;
+  column-gap: $spacing-xxl;
   grid-column: 4 / 7;
 }
 </style>
