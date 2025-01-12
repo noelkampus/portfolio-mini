@@ -1,25 +1,26 @@
 <template>
-  <SectionFiller v-if="project.process1" />
-  <div v-if="project.process1" class="project-content-text-section__wrapper">
-    <h4 class="project-hero-section__project-title">{{ project.process1 }}</h4>
+  <SectionFiller v-if="content" />
+  <div v-if="content" class="project-content-text-section__wrapper">
+    <p class="project-content-text-section__title">{{ title }}</p>
+    <p class="project-content-text-section__description">{{ content }}</p>
   </div>
-  <SectionFiller v-if="project.process1" />
+  <SectionFiller v-if="content" />
 </template>
 
 <script>
-import projectsData from "../data/projects.json";
 import SectionFiller from "../components/SectionFiller.vue";
 
 export default {
   components: { SectionFiller },
-  data() {
-    return {
-      project: null
-    };
-  },
-  created() {
-    const projectId = parseInt(this.$route.params.id, 10);
-    this.project = projectsData.find((p) => p.id === projectId);
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    content: {
+      type: String,
+      required: true
+    }
   }
 };
 </script>
@@ -33,7 +34,11 @@ export default {
   padding: 10vh 0 10vh 0;
 }
 
-.project-hero-section__project-title {
+.project-content-text-section__title {
+  grid-column: 1 / 2;
+}
+
+.project-content-text-section__description {
   grid-column: 2 / 5;
 }
 </style>

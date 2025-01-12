@@ -38,7 +38,7 @@ export default {
 .about-content-section__wrapper {
   display: flex;
   flex-direction: column;
-  row-gap: $spacing-lg;
+  row-gap: $spacing-6xl;
 }
 
 .about-content-section__subsection {

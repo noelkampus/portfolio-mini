@@ -3,7 +3,7 @@
     <h4 class="project-hero-section__project-title">{{ project.title }}</h4>
     <div class="project-hero-section__project-description">
       <h4>{{ project.description }}</h4>
-      <p>{{ project.description02 }}</p>
+      <p>{{ project.challenge }}</p>
     </div>
 
 

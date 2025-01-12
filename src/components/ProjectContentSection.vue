@@ -5,16 +5,19 @@
       <img v-if="project.image1" :src="project.image1" :alt="project.title" class="image-2" />
       <img v-if="project.image2" :src="project.image2" :alt="project.title" class="image-3" />
     </div>
-    <projectText />
+    <projectText :title="'Process'" :content="project.process" />
+    <projectText :title="'Result'" :content="project.result" />
+    <projectNext />
   </div>
 </template>
 
 <script>
 import projectsData from "../data/projects.json";
 import projectText from "../components/ProjectContentText.vue";
+import projectNext from "../components/ProjectNextSection.vue";
 
 export default {
-  components: { projectText },
+  components: { projectText, projectNext },
   data() {
     return {
       project: null
