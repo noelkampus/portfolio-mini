@@ -51,8 +51,8 @@
     "downloadTitle": "Full Documentation",
     "downloadLink": "https://www.google.com",
 
-    "image1": "/src/assets/images/test2-img.jpg",
-    "image2": "/src/assets/images/test2-img.jpg",
+    "image1": "../assets/images/test2-img.jpg",
+    "image2": "../assets/images/test2-img.jpg",
 
     "imageGallery1": "../src/assets/images/test-img.jpg",
     "imageGallery2": "../src/assets/images/test-img.jpg",
