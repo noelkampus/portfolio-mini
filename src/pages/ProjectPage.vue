@@ -4,9 +4,7 @@
     <SectionFiller />
     <ProjectHeroSection :project="project" />
     <SectionFiller />
-
     <ProjectContentSection :project="project" />
-
     <FooterMenu />
   </div>
 </template>
@@ -33,18 +31,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-img {
-  width: 100%;
-}
-</style>
-
-<!-- <div v-if="project">
-            <h1>{{ project.title }}</h1>
-            <span v-if="project.tag">{{ project.tag }}</span>
-            <img :src="project.image" :alt="project.title" />
-            <p>{{ project.description }}</p>
-            <img v-if="project.image2" :src="project.image2" :alt="project.title" />
-            <p>{{ project.process }}</p>
-            <router-link to="/">Back to Home</router-link>
-        </div> -->
+<style lang="scss" scoped></style>

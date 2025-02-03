@@ -6,7 +6,9 @@
       <img v-if="project.image2" :src="project.image2" :alt="project.title" class="image-3" />
     </div>
     <projectText :title="'Process'" :content="project.process" />
+    <projectImageGallery :project="project" />
     <projectText :title="'Result'" :content="project.result" />
+    <projectVideoFull :project="project" />
     <projectNext />
   </div>
 </template>
@@ -15,9 +17,11 @@
 import projectsData from "../data/projects.json";
 import projectText from "../components/ProjectContentText.vue";
 import projectNext from "../components/ProjectNextSection.vue";
+import projectImageGallery from "../components/ProjectImageGallery.vue";
+import projectVideoFull from "../components/ProjectVideoFull.vue";
 
 export default {
-  components: { projectText, projectNext },
+  components: { projectText, projectImageGallery, projectNext, projectVideoFull }, //projectNext,
   data() {
     return {
       project: null

@@ -2,7 +2,7 @@
   <div class="nav-wrapper">
     <div class="nav-wrapper__logo">
       <router-link to="/" class="nav-text">Noel Kampus</router-link>
-      <span class="nav-text">47° 22' 7" N 8° 32' 21" E</span>
+      <span class="nav-text">Design + Technology</span>
     </div>
     <div class="nav-wrapper__info">
       <span class="nav-text">Interaction Designer</span>

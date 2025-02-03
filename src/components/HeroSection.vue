@@ -1,19 +1,23 @@
 <template>
   <section class="hero-section__wrapper">
     <div class="hero-section__content">
-      <h4>{{ heroText }}</h4>
+      <h4 ref="heroText">{{ heroText }}</h4>
     </div>
   </section>
 </template>
 
 <script>
 import generalData from "../data/general.json";
+import { gsap } from "gsap";
 
 export default {
   data() {
     return {
       heroText: generalData.heroText
     };
+  },
+  mounted() {
+    gsap.from(this.$refs.heroText, { opacity: 0, y: 10, duration: 1, ease: "power2.out" });
   }
 };
 </script>

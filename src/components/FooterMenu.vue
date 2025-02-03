@@ -17,7 +17,7 @@
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 1.25rem 0 0 0;
+  padding: 3rem 0 0 0;
 }
 
 .footer-wrapper__credit {

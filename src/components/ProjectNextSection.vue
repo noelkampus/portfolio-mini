@@ -31,7 +31,9 @@ export default {
   },
   methods: {
     navigateToProject(projectId) {
-      this.$router.push({ name: 'ProjectPage', params: { id: projectId } });
+      if (this.project && this.project.id !== projectId) {
+        this.$router.push({ name: 'ProjectPage', params: { id: projectId } });
+      }
     }
   },
   props: {

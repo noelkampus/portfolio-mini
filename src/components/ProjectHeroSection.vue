@@ -17,16 +17,24 @@
         <p>{{ project.role }}</p>
       </div>
       <div v-if="project.client" class="project-details__item">
-        <p>Client</p>
+        <p>Client/Environment</p>
         <p>{{ project.client }}</p>
       </div>
       <div v-if="project.contributors" class="project-details__item">
         <p>Contributors</p>
         <p>{{ project.contributors }}</p>
       </div>
+      <div v-if="project.date" class="project-details__item">
+        <p>Date</p>
+        <p>{{ project.date }}</p>
+      </div>
       <div v-if="project.live" class="project-details__item">
         <p>Live</p>
         <a :href="project.live" target="_blank" rel="noopener noreferrer">{{ project.live }}</a>
+      </div>
+      <div v-if="project.live" class="project-details__item">
+        <p>Download</p>
+        <a :href="project.downloadLink" target="_blank" rel="noopener noreferrer">{{ project.downloadTitle }}</a>
       </div>
     </div>
 
@@ -80,5 +88,9 @@ export default {
   display: flex;
   flex-direction: column;
   row-gap: $spacing-xxs;
+}
+
+a {
+  text-decoration: underline;
 }
 </style>

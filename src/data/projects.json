@@ -6,19 +6,28 @@
 
     "title": "Tribute",
     "tag": "Robotics / AI",
-    "coverImage": "src/assets/images/test4-img.jpg",
+    "coverImage": "../src/assets/images/test4-img.jpg",
 
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "challenge": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
 
-    "role": "Interaction Design, Visual Design, Development",
+    "role": "Concept, Microcontroller Programming, Electronics, Product Design",
     "client": "ZHdK",
-    "date": "December 24 – January 25",
-    "contributors": "John Doe, Jane Doe",
-    "live": "https://www.google.com",
+    "date": "October 24 – November 24",
+    "contributors": "Nico Frey, Joel Staub, Lola Renner",
+    "downloadTitle": "Full Documentation",
+    "downloadLink": "https://www.google.com",
 
-    "image1": "src/assets/images/test2-img.jpg",
-    "image2": "src/assets/images/test2-img.jpg",
+    "image1": "../src/assets/images/test2-img.jpg",
+    "image2": "../src/assets/images/test2-img.jpg",
+
+    "imageGallery1": "../src/assets/images/test-img.jpg",
+    "imageGallery2": "../src/assets/images/test-img.jpg",
+    "imageGallery3": "../src/assets/images/test-img.jpg",
+
+    "fullscreenImage": "../src/assets/images/test-img.jpg",
+
+    "fullscreenVideo": "../src/assets/videos/test-vid.mp4",
 
     "process": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "result": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
@@ -29,12 +38,32 @@
     "size": "large",
 
     "title": "Bouyant",
-    "tag": "Soft Architecture",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "tag": "Soft Architecture / Biodesign",
+    "coverImage": "../src/assets/images/test-img.jpg",
 
-    "description": "A short description of Project Two.",
-    "image": "/assets/images/project-two.jpg",
-    "details": "Detailed information about Project Two."
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "challenge": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+
+    "role": "Concept, Product Design, Exhibition Design",
+    "client": "ZHdK",
+    "date": "September 24 – October 24",
+    "contributors": "Nico Frey, Joel Staub",
+    "downloadTitle": "Full Documentation",
+    "downloadLink": "https://www.google.com",
+
+    "image1": "/src/assets/images/test2-img.jpg",
+    "image2": "/src/assets/images/test2-img.jpg",
+
+    "imageGallery1": "../src/assets/images/test-img.jpg",
+    "imageGallery2": "../src/assets/images/test-img.jpg",
+    "imageGallery3": "../src/assets/images/test-img.jpg",
+
+    "fullscreenImage": "../src/assets/images/test-img.jpg",
+
+    "fullscreenVideo": "../src/assets/videos/test-vid.mp4",
+
+    "process": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "result": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
   },
   {
     "id": 3,
@@ -107,7 +136,7 @@
     "size": "medium",
 
     "title": "The bed as a tool",
-    "tag": "Health Design",
+    "tag": "Health Design Report",
     "coverImage": "src/assets/images/test-img.jpg",
 
     "description": "A short description of Project Six.",
