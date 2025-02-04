@@ -77,6 +77,11 @@ export default {
   overflow: hidden;
 }
 
+/*.project-card__image:hover {
+  scale: 0.99;
+  transition: scale 0.2s ease-in-out;
+}*/
+
 .original-image {
   width: 100%;
   display: block;

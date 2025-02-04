@@ -1,5 +1,5 @@
 <template>
-  <div class="about-hero-section__wrapper">
+  <div class="about-hero-section__wrapper" ref="heroText">
     <h4 class="about-hero-section__title">About</h4>
     <h4 class="about-hero-section__description">{{ aboutDescription }}</h4>
   </div>
@@ -7,12 +7,16 @@
 
 <script>
 import aboutData from "../data/about.json";
+import { gsap } from "gsap";
 
 export default {
   data() {
     return {
       aboutDescription: aboutData.description
     };
+  },
+  mounted() {
+    gsap.from(this.$refs.heroText, { opacity: 0, y: 0, duration: 2, ease: "power2.out" });
   }
 };
 </script>

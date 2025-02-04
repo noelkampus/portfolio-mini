@@ -17,7 +17,7 @@ export default {
     };
   },
   mounted() {
-    gsap.from(this.$refs.heroText, { opacity: 0, y: 10, duration: 1, ease: "power2.out" });
+    gsap.from(this.$refs.heroText, { opacity: 0, y: 0, duration: 2, ease: "power2.out" });
   }
 };
 </script>
