@@ -10,16 +10,18 @@
     </div>
 
     <div class="nav-wrapper__links">
-      <router-link to="/" class="nav-link" href="">Projects</router-link>
-      <router-link to="/RnD" class="nav-link" href="">RnD</router-link>
-      <router-link to="/About" class="nav-link" href="">About</router-link>
+      <router-link to="/" class="nav-link">Projects</router-link>
+      <router-link to="/RnD" class="nav-link">RnD</router-link>
+      <router-link to="/About" class="nav-link">About</router-link>
       <a href="mailto:noel@kampus.ch" class="nav-link">noel@kampus.ch</a>
     </div>
   </div>
 </template>
 
 <script>
-
+export default {
+  name: 'NavigationMenu'
+}
 </script>
 
 <style lang="scss" scoped>
@@ -56,5 +58,9 @@
 .nav-link:hover {
   filter: blur(3px);
   transition: filter 0.2s ease-in-out;
+}
+
+.nav-link.router-link-active {
+  filter: blur(3px);
 }
 </style>
