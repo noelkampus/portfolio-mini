@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import projectsData from "../data/projects.json";
+import projectsData from "/data/projects.json";
 import SectionFiller from "../components/SectionFiller.vue";
 import ProjectCard from "./ProjectCard.vue";
 

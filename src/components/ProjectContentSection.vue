@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import projectsData from "../data/projects.json";
+import projectsData from "/data/projects.json";
 import projectText from "../components/ProjectContentText.vue";
 import projectNext from "../components/ProjectNextSection.vue";
 import projectImageGallery from "../components/ProjectImageGallery.vue";
