@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import generalData from "/data/general.json";
+import generalData from "../data/general.json";
 import { gsap } from "gsap";
 
 export default {

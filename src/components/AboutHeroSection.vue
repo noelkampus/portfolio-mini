@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import aboutData from "/data/about.json";
+import aboutData from "../data/about.json";
 
 export default {
   data() {

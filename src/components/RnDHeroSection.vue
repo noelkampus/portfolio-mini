@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import generalData from "/data/general.json";
+import generalData from "../data/general.json";
 
 export default {
   data() {

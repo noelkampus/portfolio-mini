@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import projectsData from "/data/projects.json";
+import projectsData from "../data/projects.json";
 
 export default {
   data() {
