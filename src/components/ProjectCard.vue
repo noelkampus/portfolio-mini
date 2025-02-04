@@ -28,7 +28,7 @@
         </div>
       </div> -->
 
-      <img :src="project.coverImage" :alt="project.title" />
+      <img :src="getImageUrl(project.coverImage)" :alt="project.title" />
     </div>
   </router-link>
 </template>
@@ -44,6 +44,11 @@ export default {
   computed: {
     sizeClass() {
       return `size-${this.project.size}`;
+    }
+  },
+  methods: {
+    getImageUrl(imagePath) {
+      return new URL(`@/assets/images/${imagePath}`, import.meta.url).href;
     }
   }
 };
