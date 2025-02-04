@@ -1,0 +1,77 @@
+{
+  "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+
+  "image1": "/images/test-img.jpg",
+  "image2": "/images/test3-img.jpg",
+  "image3": "/images/test4-img.jpg",
+
+  "experience": [
+    {
+      "jobTitle": "BA (Major) Interaction Design",
+      "company": "Zurich University of the Arts",
+      "duration": "September 2023 - Present",
+      "keywords": "Design, Development, Fun"
+    },
+    {
+      "jobTitle": "(Minor) Health Design",
+      "company": "Zurich University of the Arts",
+      "duration": "September 2024 - August 2025",
+      "keywords": "Exploration, Research, Reporting, Speculation, Exhibition"
+    },
+    {
+      "jobTitle": "Digital Product Designer",
+      "company": "Freelance",
+      "duration": "August 2022 - Present",
+      "keywords": "Digital Product Design, UX Consulting"
+    },
+    {
+      "jobTitle": "Examiner for Interactive Media Designer EFZ",
+      "company": "dpsuisse",
+      "duration": "March 2023 - Present",
+      "keywords": "Examination, Evaluation, Feedback"
+    },
+    {
+      "jobTitle": "Product Manager",
+      "company": "Asport - Sportpass (Schweiz) AG",
+      "duration": "August 2022 - September 2022",
+      "keywords": "Product Management, UX Design"
+    },
+    {
+      "jobTitle": "Co-Founder",
+      "company": "Traily (Swisscom AG)",
+      "duration": "August 2020 - August 2022",
+      "keywords": "Enterpreneurship, Product Management, Digital Product Design"
+    },
+    {
+      "jobTitle": "Apprenticeship Interactive Media Designer EFZ",
+      "company": "Swisscom AG",
+      "duration": "August 2018 - July 2022",
+      "keywords": "Interaction Design, Frontend Development, Photography, Video Production, Animation"
+    }
+  ],
+
+  "technology": [
+    {
+      "name": "Digital Product Design"
+    },
+    {
+      "name": "Programming"
+    },
+    {
+      "name": "JavaScript",
+      "level": "70%"
+    },
+    {
+      "name": "React",
+      "level": "60%"
+    },
+    {
+      "name": "Node.js",
+      "level": "50%"
+    },
+    {
+      "name": "MongoDB",
+      "level": "40%"
+    }
+  ]
+}
