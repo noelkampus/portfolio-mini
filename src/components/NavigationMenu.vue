@@ -52,4 +52,9 @@
   column-gap: $spacing-xxl;
   grid-column: 4 / 7;
 }
+
+.nav-link:hover {
+  filter: blur(3px);
+  transition: filter 0.2s ease-in-out;
+}
 </style>

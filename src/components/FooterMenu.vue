@@ -30,4 +30,9 @@
   flex-direction: row;
   column-gap: $spacing-xxl;
 }
+
+.footer-link:hover {
+  filter: blur(3px);
+  transition: filter 0.2s ease-in-out;
+}
 </style>
