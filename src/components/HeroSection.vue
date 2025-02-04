@@ -34,4 +34,36 @@ export default {
 .hero-section__content {
   grid-column: 1 / 5;
 }
+
+@media (max-width: $breakpoint-xl) {
+  $grid-cells: 5;
+
+  .hero-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  $grid-cells: 4;
+
+  .hero-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  $grid-cells: 3;
+
+  .hero-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  $grid-cells: 2;
+
+  .hero-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
 </style>

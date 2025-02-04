@@ -72,7 +72,7 @@
 
     "title": "UpCircle",
     "tag": "Digital Product Design",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "/images/test-img.jpg",
 
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "challenge": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
@@ -105,7 +105,7 @@
 
     "title": "Blocksack",
     "tag": "Social Design",
-    "coverImage": "src/assets/images/test3-img.jpg",
+    "coverImage": "/images/test3-img.jpg",
 
     "description": "A short description of Project Four.",
     "image": "/assets/images/project-four.jpg",
@@ -118,7 +118,7 @@
 
     "title": "Toxic Relation",
     "tag": "Data Visualization",
-    "coverImage": "src/assets/images/test2-img.jpg",
+    "coverImage": "/images/test2-img.jpg",
 
     "description": "A short description of Project Five.",
     "image": "/assets/images/project-five.jpg",
@@ -131,10 +131,10 @@
 
     "title": "Kleinkram",
     "tag": "Digital Product Design",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "/images/test-img.jpg",
 
     "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.jpg",
+    "image": "/images/project-six.jpg",
     "details": "Detailed information about Project Six."
   },
   {
@@ -144,10 +144,10 @@
 
     "title": "Asport",
     "tag": "Digital Product Design",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "/images/test-img.jpg",
 
     "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.jpg",
+    "image": "/images/project-six.jpg",
     "details": "Detailed information about Project Six."
   },
   {
@@ -157,7 +157,7 @@
 
     "title": "The bed as a tool",
     "tag": "Health Design Report",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "/images/test-img.jpg",
 
     "description": "A short description of Project Six.",
     "image": "/assets/images/project-six.jpg",
@@ -170,7 +170,7 @@
 
     "title": "Spelly",
     "tag": "Digital Product Design",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "/images/test-img.jpg",
 
     "description": "A short description of Project Six.",
     "image": "/assets/images/project-six.jpg",
@@ -183,7 +183,7 @@
 
     "title": "What color is your name?",
     "tag": "Experimental Interaction",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "/images/test-img.jpg",
 
     "description": "A short description of Project Six.",
     "image": "/assets/images/project-six.jpg",
@@ -196,7 +196,7 @@
 
     "title": "Traily",
     "tag": "Startup Founding",
-    "coverImage": "src/assets/images/test-img.jpg",
+    "coverImage": "/images/test-img.jpg",
 
     "description": "A short description of Project Six.",
     "image": "/assets/images/project-six.jpg",

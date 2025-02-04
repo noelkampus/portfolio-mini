@@ -4,3 +4,34 @@
   max-width: 100vw;
   padding: 1.25rem;
 }
+
+/* Responsive design */
+@media (max-width: $breakpoint-xl) {
+  html {
+    background-color: red;
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  $grid-cells: 4;
+
+  html {
+    background-color: blue;
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  $grid-cells: 3;
+
+  html {
+    background-color: purple;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  $grid-cells: 2;
+
+  html {
+    background-color: orange;
+  }
+}

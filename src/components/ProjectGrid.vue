@@ -30,4 +30,36 @@ export default {
   column-gap: $spacing-lg;
   row-gap: $spacing-6xl;
 }
+
+@media (max-width: $breakpoint-xl) {
+  $grid-cells: 5;
+
+  .project-grid {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  $grid-cells: 4;
+
+  .project-grid {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  $grid-cells: 3;
+
+  .project-grid {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  $grid-cells: 2;
+
+  .project-grid {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
 </style>
