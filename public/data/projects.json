@@ -6,7 +6,7 @@
 
     "title": "Tribute",
     "tag": "Robotics / AI",
-    "coverImage": "../src/assets/images/test4-img.jpg",
+    "coverImage": "/images/test4-img.jpg",
 
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "challenge": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
@@ -18,16 +18,16 @@
     "downloadTitle": "Full Documentation",
     "downloadLink": "https://www.google.com",
 
-    "image1": "../src/assets/images/test2-img.jpg",
-    "image2": "../src/assets/images/test2-img.jpg",
+    "image1": "/images/test2-img.jpg",
+    "image2": "/images/test2-img.jpg",
 
-    "imageGallery1": "../src/assets/images/test-img.jpg",
-    "imageGallery2": "../src/assets/images/test-img.jpg",
-    "imageGallery3": "../src/assets/images/test-img.jpg",
+    "imageGallery1": "/images/test-img.jpg",
+    "imageGallery2": "/images/test-img.jpg",
+    "imageGallery3": "/images/test-img.jpg",
 
-    "fullscreenImage": "../src/assets/images/test-img.jpg",
+    "fullscreenImage": "/images/test-img.jpg",
 
-    "fullscreenVideo": "../src/assets/videos/test-vid.mp4",
+    "fullscreenVideo": "/videos/test-vid.mp4",
 
     "process": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "result": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
@@ -39,7 +39,7 @@
 
     "title": "Bouyant",
     "tag": "Soft Architecture / Biodesign",
-    "coverImage": "../src/assets/images/test-img.jpg",
+    "coverImage": "/images/test-img.jpg",
 
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "challenge": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
@@ -54,13 +54,13 @@
     "image1": "/images/test2-img.jpg",
     "image2": "/images/test2-img.jpg",
 
-    "imageGallery1": "../src/assets/images/test-img.jpg",
-    "imageGallery2": "../src/assets/images/test-img.jpg",
-    "imageGallery3": "../src/assets/images/test-img.jpg",
+    "imageGallery1": "/images/test-img.jpg",
+    "imageGallery2": "/images/test-img.jpg",
+    "imageGallery3": "/images/test-img.jpg",
 
-    "fullscreenImage": "../src/assets/images/test-img.jpg",
+    "fullscreenImage": "/images/test-img.jpg",
 
-    "fullscreenVideo": "../src/assets/videos/test-vid.mp4",
+    "fullscreenVideo": "/videos/test-vid.mp4",
 
     "process": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "result": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
