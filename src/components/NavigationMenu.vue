@@ -32,6 +32,8 @@ export default {
   grid-template-columns: repeat($grid-cells, $grid-item-size);
   gap: $spacing-lg;
 
+  z-index: 99;
+
   mix-blend-mode: difference;
 }
 
