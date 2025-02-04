@@ -64,6 +64,7 @@ export default {
 
   .hero-section__wrapper {
     grid-template-columns: repeat($grid-cells, $grid-item-size);
+    padding: 10vh 0 15vh 0;
   }
 }
 </style>

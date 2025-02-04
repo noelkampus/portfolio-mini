@@ -60,6 +60,8 @@ export default {
 
   .project-grid {
     grid-template-columns: repeat($grid-cells, $grid-item-size);
+    column-gap: $spacing-lg;
+    row-gap: $spacing-3xl;
   }
 }
 </style>
