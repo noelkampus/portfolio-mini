@@ -25,7 +25,7 @@ export default {
     };
   },
   created() {
-    const projectId = parseInt(this.$route.params.id, 10);
+    const projectId = parseInt(this.$route.params.id, 20);
     this.project = projectsData.find((p) => p.id === projectId);
   }
 };

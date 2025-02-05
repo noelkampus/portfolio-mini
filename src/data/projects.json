@@ -38,7 +38,7 @@
     "size": "large",
 
     "title": "Bouyant",
-    "tag": "Soft Architecture / Biodesign",
+    "tag": "Soft Architecture",
     "coverImage": "/images/test-img.jpg",
 
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
@@ -72,7 +72,7 @@
 
     "title": "UpCircle",
     "tag": "Digital Product Design",
-    "coverImage": "/images/test-img.jpg",
+    "coverImage": "/images/test-mockup4.jpg",
 
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "challenge": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
@@ -131,7 +131,7 @@
 
     "title": "Kleinkram",
     "tag": "Digital Product Design",
-    "coverImage": "/images/test-img.jpg",
+    "coverImage": "/images/test-mockup.jpg",
 
     "description": "A short description of Project Six.",
     "image": "/images/project-six.jpg",
@@ -144,7 +144,7 @@
 
     "title": "Asport",
     "tag": "Digital Product Design",
-    "coverImage": "/images/test-img.jpg",
+    "coverImage": "/images/test-mockup2.jpg",
 
     "description": "A short description of Project Six.",
     "image": "/images/project-six.jpg",
@@ -170,7 +170,7 @@
 
     "title": "Spelly",
     "tag": "Digital Product Design",
-    "coverImage": "/images/test-img.jpg",
+    "coverImage": "/images/test-mockup3.jpg",
 
     "description": "A short description of Project Six.",
     "image": "/assets/images/project-six.jpg",
