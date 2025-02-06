@@ -36,7 +36,7 @@ export default {
       ctx.drawImage(img, 0, 0, img.width, img.height);
 
       const imageData = ctx.getImageData(0, 0, img.width, img.height);
-      const pixelSize = 16;
+      const pixelSize = 20;
 
       for (let y = 0; y < img.height; y += pixelSize) {
         for (let x = 0; x < img.width; x += pixelSize) {
