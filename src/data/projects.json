@@ -6,31 +6,32 @@
 
     "title": "Tribute",
     "tag": "Robotics / AI",
-    "coverImage": "/images/test4-img.jpg",
+    "coverImage": "/images/img-tribute-cover.jpg",
 
-    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "challenge": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "description": "Years in the future, when AI has outlived the human species, it will search for the remnants of its predecessors. In our project, we give ourselves, the last humans, the chance to create a fossil of our existence.",
+    "challenge": "This project explores AI and the afterlife by designing a physical object that embodies a deceased entity’s personality. Using OpenAI’s API, we integrate a Large-Language-Object (LLO) to enable interaction through speech, motion, or sensors. The focus is on form, expression, and meaningful AI-driven responses.",
 
     "role": "Concept, Microcontroller Programming, Electronics, Product Design",
     "client": "ZHdK",
     "date": "October 24 – November 24",
     "contributors": "Nico Frey, Joel Staub, Lola Renner",
-    "downloadTitle": "Full Documentation",
-    "downloadLink": "https://www.google.com",
 
-    "image1": "/images/test2-img.jpg",
-    "image2": "/images/test2-img.jpg",
+    "downloadTitle": "Github Repository",
+    "downloadLink": "https://github.com/nico-frey/2410_vectorizer-2",
 
-    "imageGallery1": "/images/test-img.jpg",
-    "imageGallery2": "/images/test-img.jpg",
-    "imageGallery3": "/images/test-img.jpg",
+    "image1": "/images/img-tribute-image-1.jpg",
+    "image2": "/images/img-tribute-image-2.jpg",
+    "image3": "/images/img-tribute-image-3.jpg",
+    "image5": "/images/img-tribute-image-4.jpg",
 
-    "fullscreenImage": "/images/test-img.jpg",
+    "imageGallery1": "/images/img-tribute-process-1.jpg",
+    "imageGallery2": "/images/img-tribute-process-2.jpg",
+    "imageGallery3": "/images/img-tribute-process-3.jpg",
 
-    "fullscreenVideo": "/videos/test-vid.mp4",
+    "fullscreenVideo": "/videos/vid-tribute.mp4",
 
-    "process": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "result": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    "process": "The robot has an internal structure to mount all the electronics and sensors. I used a distance sensor to detect the paper, and to capture the drawing, we used a fisheye webcam and a neopixel ring to light the image. For the user interface, I implemented a mini display which guides the user. In addition to the display, I placed a button to capture the image physically and not just with image detection. Joel and I prototyped the robot's dimensions and look and feel. I helped Joel finish the product design. The button sends a signal to the application, which hands it over to the TouchDesigner to create the visual. Nico was in charge of the software programming and visual part. We worked together at every stage, but everyone had a focus in the execution phase.",
+    "result": "Tribute is a device, that enables humans to create a digital fossil of themselves to eternalize their existence. All the fossils are collected in a rich cloud of memories that outlives the human species. Our device encourages the physical act of drawing something you want to be remembered for and scanning it to upload it to the shared memory of human existence. From our cynical perspective, it is highly possible that if we are able to create general artificial intelligence, it will likely outlive humanity. "
   },
   {
     "id": 2,
@@ -39,31 +40,35 @@
 
     "title": "Bouyant",
     "tag": "Soft Architecture",
-    "coverImage": "/images/test-img.jpg",
+    "coverImage": "/images/img-bouyant-cover.jpg",
 
-    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "challenge": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "description": "This project examines the interaction between land and water by placing a buoy on shore, allowing us to experience the aquatic world from its perspective. By mimicking the buoy’s movements, we engage with the ecosystem's forces, exploring how currents affect its balance and how sound travels through water. The aim is to challenge our terrestrial viewpoint and offer a unique insight into the ecotone where land meets water.",
+    "challenge": "The shore typically marks the human boundary to the aquatic world. A world that we experience through a land-centric lens due to our nature as terrestrial organisms. Our understanding of the shore is shaped by standing on solid ground, looking and listening out at the water.  But how might we experience this interaction from the other perspective, looking back from the water towards the land?",
 
     "role": "Concept, Product Design, Exhibition Design",
     "client": "ZHdK",
     "date": "September 24 – October 24",
     "contributors": "Nico Frey, Joel Staub",
-    "downloadTitle": "Full Documentation",
-    "downloadLink": "https://www.google.com",
 
-    "image1": "/images/test2-img.jpg",
-    "image2": "/images/test2-img.jpg",
+    "image1": "/images/img-bouyant-image-2.jpg",
+    "image2": "/images/img-bouyant-image-1.jpg",
+    "image3": "/images/img-bouyant-image-4.jpg",
+    "image4": "/images/img-bouyant-image-5.jpg",
+    "image5": "/images/img-bouyant-image-3.jpg",
 
-    "imageGallery1": "/images/test-img.jpg",
-    "imageGallery2": "/images/test-img.jpg",
-    "imageGallery3": "/images/test-img.jpg",
+    "imageGallery1": "/images/img-bouyant-process-1.jpg",
+    "imageGallery2": "/images/img-bouyant-process-4.jpg",
+    "imageGallery3": "/images/img-bouyant-process-2.jpg",
+    "imageGallery4": "/images/img-bouyant-process-5.jpg",
+    "imageGallery5": "/images/img-bouyant-process-3.jpg",
+    "imageGallery6": "/images/img-bouyant-process-6.jpg",
 
     "fullscreenImage": "/images/test-img.jpg",
 
-    "fullscreenVideo": "/videos/test-vid.mp4",
+    "fullscreenVideo": "/videos/vid-bouyant.mp4",
 
-    "process": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "result": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    "process": "We carried out our initial research on the waters of Zurich to understand how an ecosystem is structured and which elements need to be present in it. We integrated the water aspect into our work and developed it over several prototype stages into the final exhibition product. We worked together as a team and did not divide up any major tasks. In this project, we consciously focussed on no-tech.",
+    "result": "We’re envisioning this interaction by reversing roles with a buoy which typically floats near a shore, and place it on land in a way that mimics the motions and playfulness of the waves. The buoy invites us to experience the forces of its ecosystem in a multisensory way. How do these currents interact with the weight of the buoy? What does it need to keep it in balance? How do sounds behave as they travel through the liquid? This exploration aims to challenge our perspective and offer a speculative view into what it feels like to be at the ecotone of the terrestrial and aquatic zones."
   },
   {
     "id": 3,
@@ -101,15 +106,39 @@
   {
     "id": 4,
     "rnd": false,
-    "size": "medium",
+    "size": "large",
 
     "title": "Blocksack",
     "tag": "Social Design",
-    "coverImage": "/images/test3-img.jpg",
+    "coverImage": "/images/img-bouyant-cover.jpg",
 
-    "description": "A short description of Project Four.",
-    "image": "/assets/images/project-four.jpg",
-    "details": "Detailed information about Project Four."
+    "description": "This project examines the interaction between land and water by placing a buoy on shore, allowing us to experience the aquatic world from its perspective. By mimicking the buoy’s movements, we engage with the ecosystem's forces, exploring how currents affect its balance and how sound travels through water. The aim is to challenge our terrestrial viewpoint and offer a unique insight into the ecotone where land meets water.",
+    "challenge": "The shore typically marks the human boundary to the aquatic world. A world that we experience through a land-centric lens due to our nature as terrestrial organisms. Our understanding of the shore is shaped by standing on solid ground, looking and listening out at the water.  But how might we experience this interaction from the other perspective, looking back from the water towards the land?",
+
+    "role": "Research, Concept, Service Design, Product Design, Video",
+    "client": "ZHdK",
+    "date": "March 24 – April 24",
+    "contributors": "Nadja Häfliger, Anna Senko, Elena Frei",
+
+    "image1": "/images/img-bouyant-image-2.jpg",
+    "image2": "/images/img-bouyant-image-1.jpg",
+    "image3": "/images/img-bouyant-image-4.jpg",
+    "image4": "/images/img-bouyant-image-5.jpg",
+    "image5": "/images/img-bouyant-image-3.jpg",
+
+    "imageGallery1": "/images/img-bouyant-process-1.jpg",
+    "imageGallery2": "/images/img-bouyant-process-4.jpg",
+    "imageGallery3": "/images/img-bouyant-process-2.jpg",
+    "imageGallery4": "/images/img-bouyant-process-5.jpg",
+    "imageGallery5": "/images/img-bouyant-process-3.jpg",
+    "imageGallery6": "/images/img-bouyant-process-6.jpg",
+
+    "fullscreenImage": "/images/test-img.jpg",
+
+    "fullscreenVideo": "/videos/vid-bouyant.mp4",
+
+    "process": "We carried out our initial research on the waters of Zurich to understand how an ecosystem is structured and which elements need to be present in it. We integrated the water aspect into our work and developed it over several prototype stages into the final exhibition product. We worked together as a team and did not divide up any major tasks. In this project, we consciously focussed on no-tech.",
+    "result": "We’re envisioning this interaction by reversing roles with a buoy which typically floats near a shore, and place it on land in a way that mimics the motions and playfulness of the waves. The buoy invites us to experience the forces of its ecosystem in a multisensory way. How do these currents interact with the weight of the buoy? What does it need to keep it in balance? How do sounds behave as they travel through the liquid? This exploration aims to challenge our perspective and offer a speculative view into what it feels like to be at the ecotone of the terrestrial and aquatic zones."
   },
   {
     "id": 5,

@@ -55,23 +55,19 @@
       "name": "Digital Product Design"
     },
     {
-      "name": "Programming"
+      "name": "Digital & Physical Prototyping"
     },
     {
-      "name": "JavaScript",
-      "level": "70%"
+      "name": "UX Consulting"
     },
     {
-      "name": "React",
-      "level": "60%"
+      "name": "Product Management"
     },
     {
-      "name": "Node.js",
-      "level": "50%"
+      "name": "Web Development // HTML, CSS, JS, Vue.js"
     },
     {
-      "name": "MongoDB",
-      "level": "40%"
+      "name": "Microcontroller Programming // C++, Arduino"
     }
   ]
 }

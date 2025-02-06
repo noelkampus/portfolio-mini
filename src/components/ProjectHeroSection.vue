@@ -32,9 +32,9 @@
         <p>Live</p>
         <a :href="project.live" target="_blank" rel="noopener noreferrer">{{ project.live }}</a>
       </div>
-      <div v-if="project.live" class="project-details__item">
-        <p>Download</p>
-        <a :href="project.downloadLink" target="_blank" rel="noopener noreferrer">{{ project.downloadTitle }}</a>
+      <div v-if="project.downloadTitle" class="project-details__item">
+        <p>{{ project.downloadTitle }}</p>
+        <a :href="project.downloadLink" target="_blank" rel="noopener noreferrer">{{ project.downloadLink }}</a>
       </div>
     </div>
 
