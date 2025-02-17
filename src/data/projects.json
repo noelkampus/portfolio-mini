@@ -120,24 +120,26 @@
     "date": "March 24 – April 24",
     "contributors": "Nadja Häfliger, Anna Senko, Elena Frei",
 
-    "image1": "/images/img-bouyant-image-2.jpg",
-    "image2": "/images/img-bouyant-image-1.jpg",
-    "image3": "/images/img-bouyant-image-4.jpg",
-    "image4": "/images/img-bouyant-image-5.jpg",
-    "image5": "/images/img-bouyant-image-3.jpg",
+    "image1": "/images/img-blocksack-image-2.jpg",
+    "image2": "/images/img-blocksack-image-1.jpg",
+    "image3": "/images/img-blocksack-image-3.jpg",
+    "image4": "/images/img-blocksack-image-4.jpg",
+    "image5": "/images/img-blocksack-image-5.jpg",
 
-    "imageGallery1": "/images/img-bouyant-process-1.jpg",
-    "imageGallery2": "/images/img-bouyant-process-4.jpg",
-    "imageGallery3": "/images/img-bouyant-process-2.jpg",
-    "imageGallery4": "/images/img-bouyant-process-5.jpg",
-    "imageGallery5": "/images/img-bouyant-process-3.jpg",
-    "imageGallery6": "/images/img-bouyant-process-6.jpg",
+    "imageGallery1": "/images/img-blocksack-process-8.jpg",
+    "imageGallery2": "/images/img-blocksack-process-1.jpg",
+    "imageGallery3": "/images/img-blocksack-process-2.jpg",
+    "imageGallery4": "/images/img-blocksack-process-3.jpg",
+    "imageGallery5": "/images/img-blocksack-process-4.jpg",
+    "imageGallery6": "/images/img-blocksack-process-5.jpg",
+    "imageGallery7": "/images/img-blocksack-process-6.jpg",
+    "imageGallery9": "/images/img-blocksack-process-7.jpg",
 
     "fullscreenImage": "/images/test-img.jpg",
 
-    "fullscreenVideo": "/videos/vid-bouyant.mp4",
+    "fullscreenVideo": "/videos/vid-blocksack.mp4",
 
-    "process": "We carried out our initial research on the waters of Zurich to understand how an ecosystem is structured and which elements need to be present in it. We integrated the water aspect into our work and developed it over several prototype stages into the final exhibition product. We worked together as a team and did not divide up any major tasks. In this project, we consciously focussed on no-tech.",
+    "process": "Starting from the theme of ecosystems and continuing with the fields of neighbourhood and microbiomes as systems in a city, we decided to create a project for a block environment \nlinked to the construction of microbiomes. For our initial findings, it was important to conduct interviews and surveys about neighbourhoods within block buildings. We were interested in how architecture influences activities in a living building and how it enables or disables interactions. How can we disrupt these structures and patterns? In our case, the residents were always using the lift, the space for a possible meeting place was the bare minimum. So we had to find a place where our project could be placed without being in the way. We wanted to come up with a project that wouldn't take up too much of the neighbours' time.",
     "result": "We’re envisioning this interaction by reversing roles with a buoy which typically floats near a shore, and place it on land in a way that mimics the motions and playfulness of the waves. The buoy invites us to experience the forces of its ecosystem in a multisensory way. How do these currents interact with the weight of the buoy? What does it need to keep it in balance? How do sounds behave as they travel through the liquid? This exploration aims to challenge our perspective and offer a speculative view into what it feels like to be at the ecotone of the terrestrial and aquatic zones."
   },
   {

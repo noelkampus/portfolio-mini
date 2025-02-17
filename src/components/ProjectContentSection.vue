@@ -10,6 +10,8 @@
       :source3="project.imageGallery3" />
     <projectImageSeries :source1="project.imageGallery4" :source2="project.imageGallery5"
       :source3="project.imageGallery6" v-if="project.imageGallery4" />
+    <projectImageSeries :source1="project.imageGallery7" :source2="project.imageGallery8"
+      :source3="project.imageGallery9" v-if="project.imageGallery7" />
     <projectText :title="'Result'" :content="project.result" />
     <projectVideoFull :project="project" />
     <projectImageFull :source="project.fullscreenImageResult" v-if="project.fullscreenImageResult" />
