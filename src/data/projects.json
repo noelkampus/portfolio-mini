@@ -151,9 +151,35 @@
     "tag": "Data Visualization",
     "coverImage": "/images/test2-img.jpg",
 
-    "description": "A short description of Project Five.",
-    "image": "/assets/images/project-five.jpg",
-    "details": "Detailed information about Project Five."
+    "description": "A visualization of the cashflow of the swiss financial market in the fossil fuel industry. The Swiss financial market invests 84 billion Swiss francs in fossil fuels. Many Swiss people don't know how much money is invested or what else it could be used for.",
+    "challenge": "The shore typically marks the human boundary to the aquatic world. A world that we experience through a land-centric lens due to our nature as terrestrial organisms. Our understanding of the shore is shaped by standing on solid ground, looking and listening out at the water.  But how might we experience this interaction from the other perspective, looking back from the water towards the land?",
+
+    "role": "Research, Concept, Prototype, Web Development (d3.js)",
+    "client": "ZHdK",
+    "date": "November 24 – December 24",
+    "downloadTitle": "Live Demo",
+    "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
+
+    "image1": "/images/img-toxic-relation-image-4.jpg",
+    "image2": "/images/img-toxic-relation-image-1.jpg",
+    "image3": "/images/img-toxic-relation-image-3.jpg",
+    "image5": "/images/img-toxic-relation-image-2.jpg",
+
+    "imageGallery1": "/images/img-blocksack-process-8.jpg",
+    "imageGallery2": "/images/img-blocksack-process-1.jpg",
+    "imageGallery3": "/images/img-blocksack-process-2.jpg",
+    "imageGallery4": "/images/img-blocksack-process-3.jpg",
+    "imageGallery5": "/images/img-blocksack-process-4.jpg",
+    "imageGallery6": "/images/img-blocksack-process-5.jpg",
+    "imageGallery7": "/images/img-blocksack-process-6.jpg",
+    "imageGallery9": "/images/img-blocksack-process-7.jpg",
+
+    "fullscreenImage": "/images/test-img.jpg",
+
+    "fullscreenVideo": "/videos/vid-toxic-relation.mp4",
+
+    "process": "Starting from the theme of ecosystems and continuing with the fields of neighbourhood and microbiomes as systems in a city, we decided to create a project for a block environment \nlinked to the construction of microbiomes. For our initial findings, it was important to conduct interviews and surveys about neighbourhoods within block buildings. We were interested in how architecture influences activities in a living building and how it enables or disables interactions. How can we disrupt these structures and patterns? In our case, the residents were always using the lift, the space for a possible meeting place was the bare minimum. So we had to find a place where our project could be placed without being in the way. We wanted to come up with a project that wouldn't take up too much of the neighbours' time.",
+    "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have. "
   },
   {
     "id": 6,
