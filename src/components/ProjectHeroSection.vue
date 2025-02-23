@@ -93,4 +93,72 @@ export default {
 a {
   text-decoration: underline;
 }
+
+@media (max-width: $breakpoint-xl) {
+  $grid-cells: 5;
+
+  .project-hero-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+
+  .project-hero-section__project-title {
+    grid-column: 1 / 2;
+  }
+
+  .project-hero-section__project-description {
+    grid-column: 2 / 5;
+  }
+
+  .project-hero-section__details {
+    grid-column: 5 / 6;
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  $grid-cells: 4;
+
+  .project-hero-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+
+  .project-hero-section__project-title {
+    grid-column: 1 / 2;
+  }
+
+  .project-hero-section__project-description {
+    grid-column: 2 / 4;
+  }
+
+  .project-hero-section__details {
+    grid-column: 4 / 5;
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .project-hero-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-4xl;
+    padding: 10vh 0 15vh 0;
+  }
+
+  .project-hero-section__project-description {
+    row-gap: $spacing-xl;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  $grid-cells: 2;
+
+  .project-hero-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-4xl;
+    padding: 10vh 0 15vh 0;
+  }
+
+  .project-hero-section__project-description {
+    row-gap: $spacing-xl;
+  }
+}
 </style>

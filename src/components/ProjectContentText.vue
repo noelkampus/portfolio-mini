@@ -41,4 +41,50 @@ export default {
 .project-content-text-section__description {
   grid-column: 2 / 5;
 }
+
+@media (max-width: $breakpoint-xl) {
+  $grid-cells: 5;
+
+  .project-content-text-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+
+  .image-1 {
+    grid-column: 1 / 3;
+  }
+
+  .image-2 {
+    grid-column: 3 / 5;
+  }
+
+  .image-3 {
+    grid-column: 5 / 7;
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  $grid-cells: 4;
+
+  .project-content-text-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .project-content-text-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-xl;
+    padding: 5vh 0 5vh 0;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .project-content-text-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-xl;
+    padding: 5vh 0 5vh 0;
+  }
+}
 </style>

@@ -51,4 +51,38 @@ export default {
   grid-template-columns: repeat($grid-cells, $grid-item-size);
   gap: $spacing-lg;
 }
+
+@media (max-width: $breakpoint-xl) {
+  $grid-cells: 5;
+
+  .project-next-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  $grid-cells: 4;
+
+  .project-next-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .project-next-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-xl;
+    padding: 5vh 0 5vh 0;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .project-next-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-xl;
+    padding: 5vh 0 5vh 0;
+  }
+}
 </style>

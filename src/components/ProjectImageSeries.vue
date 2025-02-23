@@ -47,4 +47,61 @@ export default {
 .image-3 {
   grid-column: 5 / 7;
 }
+
+@media (max-width: $breakpoint-xl) {
+  $grid-cells: 5;
+
+  .project-image-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+
+  .image-1 {
+    grid-column: 1 / 2;
+  }
+
+  .image-2 {
+    grid-column: 2 / 4;
+  }
+
+  .image-3 {
+    grid-column: 4 / 6;
+  }
+}
+
+@media (max-width: $breakpoint-lg) {
+  $grid-cells: 4;
+
+  .project-image-section__wrapper {
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+  }
+
+  .image-1 {
+    grid-column: 1 / 2;
+  }
+
+  .image-2 {
+    grid-column: 2 / 4;
+  }
+
+  .image-3 {
+    grid-column: 4 / 5;
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .project-image-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-xs;
+
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .project-image-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-xs;
+  }
+}
 </style>
