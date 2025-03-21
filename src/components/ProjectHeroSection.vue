@@ -1,6 +1,6 @@
 <template>
   <div v-if="project" class="project-hero-section__wrapper">
-    <h4 class="project-hero-section__project-title">{{ project.title }}</h4>
+    <h4 ref="heroText" class="project-hero-section__project-title">{{ project.title }}</h4>
     <div class="project-hero-section__project-description">
       <h4>{{ project.description }}</h4>
       <p>{{ project.challenge }}</p>
@@ -43,6 +43,7 @@
 
 <script>
 import projectsData from "../data/projects.json";
+import { gsap } from "gsap";
 
 export default {
   data() {
@@ -53,6 +54,8 @@ export default {
   created() {
     const projectId = parseInt(this.$route.params.id, 10);
     this.project = projectsData.find((p) => p.id === projectId);
+  }, mounted() {
+    gsap.from(this.$refs.heroText, { opacity: 0, y: 0, duration: 2, ease: "power2.out" });
   }
 };
 </script>
