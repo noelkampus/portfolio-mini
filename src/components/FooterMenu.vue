@@ -6,6 +6,7 @@
     <div class="footer-wrapper__links">
       <a class="footer-link" href="https://www.linkedin.com/in/noelkampus/" target="_blank">LinkedIn</a>
       <a class="footer-link" href="https://www.instagram.com/noelkampus.design/" target="_blank">Instagram</a>
+      <a class="footer-link" href="https://github.com/noelkampus" target="_blank">GitHub</a>
     </div>
   </div>
 </template>

@@ -113,6 +113,151 @@
     "coverImage": "/images/img-blocksack-cover.jpg",
 
     "description": "Blocksack is a community building project aimed at fostering stronger bonds within block living environments. The upcycled bag serves as an identity for the building, connecting neighbors through shared bags. Its purpose is to enhance neighborly connections, reduce anonymity, and spark conversations, ultimately cultivating a positive environment imbued with pride and connection.",
+    "challenge": "In big cities, many people live in apartment blocks and often don’t know their neighbours or have poor relationships with them. Interviews revealed that shared spaces like staircases and laundry rooms are key points of interaction. We became interested in how these “in-between spaces” affect neighbourly relationships and decided to develop a project that helps residents connect and communicate better.",
+
+    "role": "Research, Concept, Prototype, Video",
+    "client": "ZHdK",
+    "date": "March 24 – April 24",
+    "contributors": "Nadja Häfliger, Anna Senko, Elena Frei",
+
+    "image1": "/images/img-blocksack-image-2.jpg",
+    "image2": "/images/img-blocksack-image-1.jpg",
+    "image3": "/images/img-blocksack-image-3.jpg",
+    "image4": "/images/img-blocksack-image-4.jpg",
+    "image5": "/images/img-blocksack-image-5.jpg",
+
+    "imageGallery1": "/images/img-blocksack-process-8.jpg",
+    "imageGallery2": "/images/img-blocksack-process-1.jpg",
+    "imageGallery3": "/images/img-blocksack-process-2.jpg",
+    "imageGallery4": "/images/img-blocksack-process-3.jpg",
+    "imageGallery5": "/images/img-blocksack-process-4.jpg",
+    "imageGallery6": "/images/img-blocksack-process-5.jpg",
+    "imageGallery7": "/images/img-blocksack-process-6.jpg",
+    "imageGallery9": "/images/img-blocksack-process-7.jpg",
+
+    "fullscreenImage": "/images/test-img.jpg",
+
+    "fullscreenVideo": "/videos/vid-blocksack.mp4",
+
+    "process": "Starting from the theme of ecosystems and continuing with the fields of neighbourhood and microbiomes as systems in a city, we decided to create a project for a block environment \nlinked to the construction of microbiomes. For our initial findings, it was important to conduct interviews and surveys about neighbourhoods within block buildings. We were interested in how architecture influences activities in a living building and how it enables or disables interactions. How can we disrupt these structures and patterns? In our case, the residents were always using the lift, the space for a possible meeting place was the bare minimum. So we had to find a place where our project could be placed without being in the way. We wanted to come up with a project that wouldn't take up too much of the neighbours' time.",
+    "result": "After testing various ideas, we decided to create a branding for the building—something residents could identify with and feel part of. It doesn’t require active participation but offers a shared identity they can use if they want to. Just by being present and sharing the idea, we connected with neighbours who appreciated the initiative. We chose “44” as a symbol for the block and designed a flexible grid that can be adapted for other buildings. We may not change the building’s structure, but we can reshape how people see it—giving identity to both the place and its community."
+  },
+  {
+    "id": 5,
+    "rnd": false,
+    "size": "medium",
+
+    "title": "Toxic Relation",
+    "tag": "Data Visualization",
+    "coverImage": "/images/test2-img.jpg",
+
+    "description": "A visualization of the cashflow of the swiss financial market in the fossil fuel industry. The Swiss financial market invests 84 billion Swiss francs in fossil fuels. Many Swiss people don't know how much money is invested or what else it could be used for.",
+    "challenge": "We’re used to thinking in terms of money—we understand costs and make trade-offs accordingly. But carbon is different: it's invisible, making it much harder to track or manage. This project addresses that gap by designing a website that clearly presents the carbon footprint of everyday consumer goods on a per capita basis.",
+
+    "role": "Research, Concept, Prototype, Web Development (d3.js)",
+    "client": "ZHdK",
+    "date": "November 24 – December 24",
+    "downloadTitle": "Live Demo",
+    "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
+
+    "image1": "/images/img-toxic-relation-image-4.jpg",
+    "image2": "/images/img-toxic-relation-image-1.jpg",
+    "image3": "/images/img-toxic-relation-image-3.jpg",
+    "image5": "/images/img-toxic-relation-image-2.jpg",
+
+    "imageGallery1": "/images/img-blocksack-process-8.jpg",
+    "imageGallery2": "/images/img-blocksack-process-1.jpg",
+    "imageGallery3": "/images/img-blocksack-process-2.jpg",
+    "imageGallery4": "/images/img-blocksack-process-3.jpg",
+    "imageGallery5": "/images/img-blocksack-process-4.jpg",
+    "imageGallery6": "/images/img-blocksack-process-5.jpg",
+    "imageGallery7": "/images/img-blocksack-process-6.jpg",
+    "imageGallery9": "/images/img-blocksack-process-7.jpg",
+
+    "fullscreenImage": "/images/test-img.jpg",
+
+    "fullscreenVideo": "/videos/vid-toxic-relation.mp4",
+
+    "process": "The project was developed through various prototyping stages. The concept was discussed during mentoring sessions. Early on, I focused on a specific dataset, which allowed me to start working on a suitable concept from the beginning. My initial idea was an interaction concept for a touch device. However, I eventually decided to abandon this direction, as it no longer provided a meaningful added value in terms of data visualization.",
+    "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have."
+  },
+  {
+    "id": 6,
+    "rnd": false,
+    "size": "medium",
+
+    "title": "Kleinkram",
+    "tag": "Digital Product Design",
+    "coverImage": "/images/img-kleinkram-cover.jpg",
+
+    "description": "This project is an open-source platform for organizing and managing robot data in BAG and MCAP formats. It supports labs working across multiple missions, projects, and teams.",
+    "challenge": "The challenge was to design and build a platform to replace the current use of Google Drive for managing .bag and .mcap files. The solution needed to be open-source, flexible, and support collaboration across teams with different roles and requirements. My role focused on crafting the product experience and developing a reusable UI component library to support the engineering team and ensure consistency across the application.",
+
+    "role": "Product Experience Design, UI Library",
+    "client": "ETH Zurich - Robotics Systems Lab",
+    "date": "August 24 – September 24",
+
+    "image1": "/images/img-kleinkram-image-2.jpg",
+    "image2": "/images/img-kleinkram-image-3.jpg",
+    "image3": "/images/img-kleinkram-image-4.jpg",
+    "image4": "/images/img-kleinkram-image-5.jpg",
+    "image5": "/images/img-kleinkram-image-6.jpg",
+    "image6": "/images/img-kleinkram-image-7.jpg",
+    "image7": "/images/img-kleinkram-image-8.jpg",
+    "image8": "/images/img-kleinkram-image-9.jpg",
+
+    "imageGallery1": "/images/img-blocksack-process-8.jpg",
+    "imageGallery2": "/images/img-blocksack-process-1.jpg",
+    "imageGallery3": "/images/img-blocksack-process-2.jpg",
+    "imageGallery4": "/images/img-blocksack-process-3.jpg",
+    "imageGallery5": "/images/img-blocksack-process-4.jpg",
+    "imageGallery6": "/images/img-blocksack-process-5.jpg",
+    "imageGallery7": "/images/img-blocksack-process-6.jpg",
+    "imageGallery9": "/images/img-blocksack-process-7.jpg",
+
+    "fullscreenImage": "/images/test-img.jpg",
+
+    "fullscreenVideo": "/videos/vid-toxic-relation.mp4",
+
+    "process": "The project was developed through various prototyping stages. The concept was discussed during mentoring sessions. Early on, I focused on a specific dataset, which allowed me to start working on a suitable concept from the beginning. My initial idea was an interaction concept for a touch device. However, I eventually decided to abandon this direction, as it no longer provided a meaningful added value in terms of data visualization.",
+    "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have."
+  },
+  {
+    "id": 7,
+    "rnd": false,
+    "size": "medium",
+
+    "title": "The bed as a tool",
+    "tag": "Health Design Report",
+    "coverImage": "/images/test-img.jpg",
+
+    "description": "A short description of Project Six.",
+    "image": "/assets/images/project-six.jpg",
+    "details": "Detailed information about Project Six."
+  },
+  {
+    "id": 8,
+    "rnd": false,
+    "size": "medium",
+
+    "title": "Spelly",
+    "tag": "Digital Product Design",
+    "coverImage": "/images/img-spelly-cover.jpg",
+
+    "description": "A short description of Project Six.",
+    "image": "/assets/images/project-six.jpg",
+    "details": "Detailed information about Project Six."
+  },
+  {
+    "id": 9,
+    "rnd": false,
+    "size": "large",
+
+    "title": "CSH 4000",
+    "tag": "Health Speculation",
+    "coverImage": "/images/img-blocksack-cover.jpg",
+
+    "description": "Blocksack is a community building project aimed at fostering stronger bonds within block living environments. The upcycled bag serves as an identity for the building, connecting neighbors through shared bags. Its purpose is to enhance neighborly connections, reduce anonymity, and spark conversations, ultimately cultivating a positive environment imbued with pride and connection.",
     "challenge": "The shore typically marks the human boundary to the aquatic world. A world that we experience through a land-centric lens due to our nature as terrestrial organisms. Our understanding of the shore is shaped by standing on solid ground, looking and listening out at the water.  But how might we experience this interaction from the other perspective, looking back from the water towards the land?",
 
     "role": "Research, Concept, Prototype, Video",
@@ -141,97 +286,6 @@
 
     "process": "Starting from the theme of ecosystems and continuing with the fields of neighbourhood and microbiomes as systems in a city, we decided to create a project for a block environment \nlinked to the construction of microbiomes. For our initial findings, it was important to conduct interviews and surveys about neighbourhoods within block buildings. We were interested in how architecture influences activities in a living building and how it enables or disables interactions. How can we disrupt these structures and patterns? In our case, the residents were always using the lift, the space for a possible meeting place was the bare minimum. So we had to find a place where our project could be placed without being in the way. We wanted to come up with a project that wouldn't take up too much of the neighbours' time.",
     "result": "We’re envisioning this interaction by reversing roles with a buoy which typically floats near a shore, and place it on land in a way that mimics the motions and playfulness of the waves. The buoy invites us to experience the forces of its ecosystem in a multisensory way. How do these currents interact with the weight of the buoy? What does it need to keep it in balance? How do sounds behave as they travel through the liquid? This exploration aims to challenge our perspective and offer a speculative view into what it feels like to be at the ecotone of the terrestrial and aquatic zones."
-  },
-  {
-    "id": 5,
-    "rnd": false,
-    "size": "medium",
-
-    "title": "Toxic Relation",
-    "tag": "Data Visualization",
-    "coverImage": "/images/test2-img.jpg",
-
-    "description": "A visualization of the cashflow of the swiss financial market in the fossil fuel industry. The Swiss financial market invests 84 billion Swiss francs in fossil fuels. Many Swiss people don't know how much money is invested or what else it could be used for.",
-    "challenge": "The shore typically marks the human boundary to the aquatic world. A world that we experience through a land-centric lens due to our nature as terrestrial organisms. Our understanding of the shore is shaped by standing on solid ground, looking and listening out at the water.  But how might we experience this interaction from the other perspective, looking back from the water towards the land?",
-
-    "role": "Research, Concept, Prototype, Web Development (d3.js)",
-    "client": "ZHdK",
-    "date": "November 24 – December 24",
-    "downloadTitle": "Live Demo",
-    "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
-
-    "image1": "/images/img-toxic-relation-image-4.jpg",
-    "image2": "/images/img-toxic-relation-image-1.jpg",
-    "image3": "/images/img-toxic-relation-image-3.jpg",
-    "image5": "/images/img-toxic-relation-image-2.jpg",
-
-    "imageGallery1": "/images/img-blocksack-process-8.jpg",
-    "imageGallery2": "/images/img-blocksack-process-1.jpg",
-    "imageGallery3": "/images/img-blocksack-process-2.jpg",
-    "imageGallery4": "/images/img-blocksack-process-3.jpg",
-    "imageGallery5": "/images/img-blocksack-process-4.jpg",
-    "imageGallery6": "/images/img-blocksack-process-5.jpg",
-    "imageGallery7": "/images/img-blocksack-process-6.jpg",
-    "imageGallery9": "/images/img-blocksack-process-7.jpg",
-
-    "fullscreenImage": "/images/test-img.jpg",
-
-    "fullscreenVideo": "/videos/vid-toxic-relation.mp4",
-
-    "process": "Starting from the theme of ecosystems and continuing with the fields of neighbourhood and microbiomes as systems in a city, we decided to create a project for a block environment \nlinked to the construction of microbiomes. For our initial findings, it was important to conduct interviews and surveys about neighbourhoods within block buildings. We were interested in how architecture influences activities in a living building and how it enables or disables interactions. How can we disrupt these structures and patterns? In our case, the residents were always using the lift, the space for a possible meeting place was the bare minimum. So we had to find a place where our project could be placed without being in the way. We wanted to come up with a project that wouldn't take up too much of the neighbours' time.",
-    "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have. "
-  },
-  {
-    "id": 6,
-    "rnd": false,
-    "size": "medium",
-
-    "title": "Kleinkram",
-    "tag": "Digital Product Design",
-    "coverImage": "/images/test-mockup.jpg",
-
-    "description": "A short description of Project Six.",
-    "image": "/images/project-six.jpg",
-    "details": "Detailed information about Project Six."
-  },
-  {
-    "id": 7,
-    "rnd": false,
-    "size": "medium",
-
-    "title": "Asport",
-    "tag": "Digital Product Design",
-    "coverImage": "/images/test-mockup2.jpg",
-
-    "description": "A short description of Project Six.",
-    "image": "/images/project-six.jpg",
-    "details": "Detailed information about Project Six."
-  },
-  {
-    "id": 8,
-    "rnd": false,
-    "size": "medium",
-
-    "title": "The bed as a tool",
-    "tag": "Health Design Report",
-    "coverImage": "/images/test-img.jpg",
-
-    "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.jpg",
-    "details": "Detailed information about Project Six."
-  },
-  {
-    "id": 9,
-    "rnd": false,
-    "size": "medium",
-
-    "title": "Spelly",
-    "tag": "Digital Product Design",
-    "coverImage": "/images/test-mockup3.jpg",
-
-    "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.jpg",
-    "details": "Detailed information about Project Six."
   },
   {
     "id": 10,

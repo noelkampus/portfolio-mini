@@ -3,6 +3,8 @@
     <projectImageSeries :source1="project.coverImage" :source2="project.image1" :source3="project.image2" />
     <projectImageSeries :source1="project.image3" :source2="project.image4" :source3="project.image5"
       v-if="project.image3" />
+    <projectImageSeries :source1="project.image6" :source2="project.image7" :source3="project.image8"
+      v-if="project.image6" />
     <projectImageFull :source="project.fullscreenImage1" v-if="project.fullscreenImage1" />
     <projectText :title="'Process'" :content="project.process" />
     <!-- <projectImageGallery :project="project" /> -->
