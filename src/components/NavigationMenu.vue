@@ -11,7 +11,7 @@
 
     <div class="nav-wrapper__links">
       <router-link to="/" class="nav-link desktop-link">Projects</router-link>
-      <router-link to="/RnD" class="nav-link desktop-link">RnD</router-link>
+      <!-- <router-link to="/RnD" class="nav-link desktop-link">RnD</router-link> -->
       <router-link to="/About" class="nav-link desktop-link">About</router-link>
       <a href="mailto:noel@kampus.ch" class="nav-link desktop-link">noel@kampus.ch</a>
     </div>
@@ -20,7 +20,7 @@
   <div class="mobile-menu">
     <div class="mobile-links__wrapper" v-if="isMenuOpen">
       <router-link to="/" class="nav-link mobile-link" @click="toggleMenu">Projects</router-link>
-      <router-link to="/RnD" class="nav-link mobile-link" @click="toggleMenu">RnD</router-link>
+      <!-- <router-link to="/RnD" class="nav-link mobile-link" @click="toggleMenu">RnD</router-link> -->
       <router-link to="/About" class="nav-link mobile-link" @click="toggleMenu">About</router-link>
       <a href="mailto:noel@kampus.ch" class="nav-link mobile-link" @click="toggleMenu">noel@kampus.ch</a>
     </div>

@@ -2,8 +2,7 @@
   <SectionFiller />
   <div v-if="project" class="project-next-section__wrapper">
     <p class="project-content-text-section__title">Next Projects</p>
-    <ProjectCard v-for="project in nextProjects" :key="project.id" :project="project"
-      @click="navigateToProject(project.id)" />
+    <ProjectCard v-for="project in nextProjects" :key="project.id" :project="project" @click="reloadPage(project.id)" />
   </div>
   <SectionFiller />
 </template>
@@ -22,18 +21,41 @@ export default {
     };
   },
   created() {
-    const projectId = parseInt(this.$route.params.id, 10);
-    this.project = projectsData.find((p) => p.id === projectId);
-    if (this.project) {
-      const currentIndex = projectsData.findIndex((p) => p.id === projectId);
-      this.nextProjects = projectsData.slice(currentIndex + 1, currentIndex + 3);
+    this.loadProjectData();
+  },
+  watch: {
+    '$route.params.id': {
+      immediate: true,
+      handler() {
+        this.loadProjectData();
+      }
+    },
+    projects: {
+      deep: true,
+      handler() {
+        this.loadProjectData();
+      }
     }
   },
   methods: {
+    loadProjectData() {
+      const projectId = parseInt(this.$route.params.id, 10);
+      this.project = projectsData.find((p) => p.id === projectId);
+      if (this.project) {
+        const currentIndex = projectsData.findIndex((p) => p.id === projectId);
+        this.nextProjects = projectsData.slice(currentIndex + 1, currentIndex + 3);
+      }
+    },
     navigateToProject(projectId) {
       if (this.project && this.project.id !== projectId) {
         this.$router.push({ name: 'ProjectPage', params: { id: projectId } });
       }
+    },
+    reloadPage(projectId) {
+      this.navigateToProject(projectId);
+      this.$nextTick(() => {
+        window.location.reload();
+      });
     }
   },
   props: {
@@ -42,6 +64,9 @@ export default {
       required: true
     }
   },
+  updated() {
+    this.loadProjectData();
+  }
 };
 </script>
 

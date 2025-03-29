@@ -53,4 +53,38 @@ export default {
   row-gap: $spacing-lg;
   grid-column: 2 / 5;
 }
+
+@media (max-width: $breakpoint-md) {
+  $grid-cells: 6;
+
+  .about-content-section__subsection {
+    display: grid;
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+    gap: $spacing-lg;
+  }
+
+  .about-content-section__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-lg;
+    grid-column: 3 / 7;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  $grid-cells: 4;
+
+  .about-content-section__subsection {
+    display: grid;
+    grid-template-columns: repeat($grid-cells, $grid-item-size);
+    gap: $spacing-lg;
+  }
+
+  .about-content-section__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-lg;
+    grid-column: 2 / 5;
+  }
+}
 </style>

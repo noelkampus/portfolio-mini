@@ -41,4 +41,22 @@ export default {
 .image-3 {
   grid-column: 5 / 7;
 }
+
+@media (max-width: $breakpoint-md) {
+  .project-image-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-xs;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  $grid-cells: 2;
+
+  .about-image-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-xs;
+  }
+}
 </style>

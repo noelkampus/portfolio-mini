@@ -93,7 +93,6 @@ export default {
     display: flex;
     flex-direction: column;
     row-gap: $spacing-xs;
-
   }
 }
 

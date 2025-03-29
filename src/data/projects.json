@@ -164,15 +164,14 @@
     "image2": "/images/img-toxic-relation-image-1.jpg",
     "image3": "/images/img-toxic-relation-image-3.jpg",
     "image5": "/images/img-toxic-relation-image-2.jpg",
+    "image": "/images/img-toxic-relation-image-5.jpg",
 
-    "imageGallery1": "/images/img-blocksack-process-8.jpg",
-    "imageGallery2": "/images/img-blocksack-process-1.jpg",
-    "imageGallery3": "/images/img-blocksack-process-2.jpg",
-    "imageGallery4": "/images/img-blocksack-process-3.jpg",
-    "imageGallery5": "/images/img-blocksack-process-4.jpg",
-    "imageGallery6": "/images/img-blocksack-process-5.jpg",
-    "imageGallery7": "/images/img-blocksack-process-6.jpg",
-    "imageGallery9": "/images/img-blocksack-process-7.jpg",
+    "imageGallery1": "/images/img-toxic-relation-process-1.jpg",
+    "imageGallery2": "/images/img-toxic-relation-process-2.jpg",
+    "imageGallery3": "/images/img-toxic-relation-process-3.jpg",
+    "imageGallery4": "/images/img-toxic-relation-process-4.jpg",
+    "imageGallery5": "/images/img-toxic-relation-process-6.jpg",
+    "imageGallery6": "/images/img-toxic-relation-process-5.jpg",
 
     "fullscreenImage": "/images/test-img.jpg",
 
@@ -206,18 +205,14 @@
     "image7": "/images/img-kleinkram-image-8.jpg",
     "image8": "/images/img-kleinkram-image-9.jpg",
 
-    "imageGallery1": "/images/img-blocksack-process-8.jpg",
-    "imageGallery2": "/images/img-blocksack-process-1.jpg",
-    "imageGallery3": "/images/img-blocksack-process-2.jpg",
-    "imageGallery4": "/images/img-blocksack-process-3.jpg",
-    "imageGallery5": "/images/img-blocksack-process-4.jpg",
-    "imageGallery6": "/images/img-blocksack-process-5.jpg",
-    "imageGallery7": "/images/img-blocksack-process-6.jpg",
-    "imageGallery9": "/images/img-blocksack-process-7.jpg",
+    "imageGallery1": "/images/img-kleinkram-process-1.jpg",
+    "imageGallery2": "/images/img-kleinkram-process-2.jpg",
+    "imageGallery3": "/images/img-kleinkram-process-3.jpg",
+    "imageGallery4": "/images/img-kleinkram-process-4.jpg",
+    "imageGallery5": "/images/img-kleinkram-process-5.jpg",
+    "imageGallery6": "/images/img-kleinkram-process-6.jpg",
 
     "fullscreenImage": "/images/test-img.jpg",
-
-    "fullscreenVideo": "/videos/vid-toxic-relation.mp4",
 
     "process": "The project was developed through various prototyping stages. The concept was discussed during mentoring sessions. Early on, I focused on a specific dataset, which allowed me to start working on a suitable concept from the beginning. My initial idea was an interaction concept for a touch device. However, I eventually decided to abandon this direction, as it no longer provided a meaningful added value in terms of data visualization.",
     "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have."
@@ -229,11 +224,38 @@
 
     "title": "The bed as a tool",
     "tag": "Health Design Report",
-    "coverImage": "/images/test-img.jpg",
+    "coverImage": "/images/img-kleinkram-cover.jpg",
 
-    "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.jpg",
-    "details": "Detailed information about Project Six."
+    "description": "This project is an open-source platform for organizing and managing robot data in BAG and MCAP formats. It supports labs working across multiple missions, projects, and teams.",
+    "challenge": "The challenge was to design and build a platform to replace the current use of Google Drive for managing .bag and .mcap files. The solution needed to be open-source, flexible, and support collaboration across teams with different roles and requirements. My role focused on crafting the product experience and developing a reusable UI component library to support the engineering team and ensure consistency across the application.",
+
+    "role": "Research, Writing, Editorial Design",
+    "client": "ZHdK",
+    "date": "January 24",
+
+    "downloadTitle": "Download Report",
+    "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
+
+    "image1": "/images/img-kleinkram-image-2.jpg",
+    "image2": "/images/img-kleinkram-image-3.jpg",
+    "image3": "/images/img-kleinkram-image-4.jpg",
+    "image4": "/images/img-kleinkram-image-5.jpg",
+    "image5": "/images/img-kleinkram-image-6.jpg",
+    "image6": "/images/img-kleinkram-image-7.jpg",
+    "image7": "/images/img-kleinkram-image-8.jpg",
+    "image8": "/images/img-kleinkram-image-9.jpg",
+
+    "imageGallery1": "/images/img-kleinkram-process-1.jpg",
+    "imageGallery2": "/images/img-kleinkram-process-2.jpg",
+    "imageGallery3": "/images/img-kleinkram-process-3.jpg",
+    "imageGallery4": "/images/img-kleinkram-process-4.jpg",
+    "imageGallery5": "/images/img-kleinkram-process-5.jpg",
+    "imageGallery6": "/images/img-kleinkram-process-6.jpg",
+
+    "fullscreenImage": "/images/test-img.jpg",
+
+    "process": "The project was developed through various prototyping stages. The concept was discussed during mentoring sessions. Early on, I focused on a specific dataset, which allowed me to start working on a suitable concept from the beginning. My initial idea was an interaction concept for a touch device. However, I eventually decided to abandon this direction, as it no longer provided a meaningful added value in terms of data visualization.",
+    "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have."
   },
   {
     "id": 8,
@@ -244,14 +266,38 @@
     "tag": "Digital Product Design",
     "coverImage": "/images/img-spelly-cover.jpg",
 
-    "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.jpg",
-    "details": "Detailed information about Project Six."
+    "description": "Spelly is a fun and educational app designed to help young children learn how to spell everyday objects. Through a variety of interactive activities—like a spelling game where kids practice spelling the names of common items—Spelly supports early literacy in an engaging way. The app offers real-time feedback and gentle corrections to help kids improve their spelling skills as they play.",
+    "challenge": "One of the main challenges of the project was finding effective ways to keep kids engaged while learning to spell. Providing immediate, encouraging feedback was essential to maintain motivation and reinforce correct spelling. Another key consideration was designing the app to be flexible—offering both traditional on-screen activities and an optional AR experience to adapt to different learning environments and preferences.",
+
+    "role": "Concept, Motion Design, Product Design",
+    "client": "Design School",
+    "date": "February 21 – April 21",
+
+    "image1": "/images/img-spelly-image-1.jpg",
+    "image2": "/images/img-spelly-image-2.jpg",
+    "image3": "/images/img-spelly-image-3.jpg",
+    "image4": "/images/img-spelly-image-4.jpg",
+    "image5": "/images/img-spelly-image-5.jpg",
+    "image6": "/images/img-spelly-image-6.jpg",
+    "image7": "/images/img-spelly-image-7.jpg",
+
+    "imageGallery1": "/images/img-spelly-process-1.jpg",
+    "imageGallery2": "/images/img-spelly-process-2.jpg",
+    "imageGallery3": "/images/img-spelly-process-3.jpg",
+    "imageGallery4": "/images/img-spelly-process-4.jpg",
+    "imageGallery5": "/images/img-spelly-process-5.jpg",
+
+    "fullscreenImage": "/images/test-img.jpg",
+
+    "fullscreenVideo": "/videos/vid-spelly.mp4",
+
+    "process": "The project began by using physical spelling cards with individual letters as a foundation for the digital experience, translating a familiar learning tool into an interactive format. To enhance engagement, I experimented with incorporating an avatar that provides visual feedback and encouragement as kids spell each word. This approach aimed to create a supportive and playful learning environment.",
+    "result": "The final result of the project is an AR-based app that recognizes real-world objects and allows kids to practice spelling their names. I also developed different modes so the app can be used on the go, even without AR. The interface is kept simple with playful, kid-friendly visuals to make the experience intuitive and engaging for young users."
   },
   {
     "id": 9,
     "rnd": false,
-    "size": "large",
+    "size": "medium",
 
     "title": "CSH 4000",
     "tag": "Health Speculation",
@@ -260,10 +306,9 @@
     "description": "Blocksack is a community building project aimed at fostering stronger bonds within block living environments. The upcycled bag serves as an identity for the building, connecting neighbors through shared bags. Its purpose is to enhance neighborly connections, reduce anonymity, and spark conversations, ultimately cultivating a positive environment imbued with pride and connection.",
     "challenge": "The shore typically marks the human boundary to the aquatic world. A world that we experience through a land-centric lens due to our nature as terrestrial organisms. Our understanding of the shore is shaped by standing on solid ground, looking and listening out at the water.  But how might we experience this interaction from the other perspective, looking back from the water towards the land?",
 
-    "role": "Research, Concept, Prototype, Video",
+    "role": "Research, Concept, Product Design, Exhibition Design",
     "client": "ZHdK",
-    "date": "March 24 – April 24",
-    "contributors": "Nadja Häfliger, Anna Senko, Elena Frei",
+    "date": "February 25 – April 25",
 
     "image1": "/images/img-blocksack-image-2.jpg",
     "image2": "/images/img-blocksack-image-1.jpg",

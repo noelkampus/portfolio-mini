@@ -1,13 +1,13 @@
 <template>
   <div v-if="project" class="project-hero-section__wrapper">
     <h4 ref="heroText" class="project-hero-section__project-title">{{ project.title }}</h4>
-    <div class="project-hero-section__project-description">
+    <div ref="projectDescription" class="project-hero-section__project-description">
       <h4>{{ project.description }}</h4>
       <p>{{ project.challenge }}</p>
     </div>
 
 
-    <div class="project-hero-section__details">
+    <div ref="details" class="project-hero-section__details">
       <div v-if="project.tag" class="project-details__item">
         <p>Topic</p>
         <p>{{ project.tag }}</p>
@@ -56,6 +56,9 @@ export default {
     this.project = projectsData.find((p) => p.id === projectId);
   }, mounted() {
     gsap.from(this.$refs.heroText, { opacity: 0, y: 0, duration: 2, ease: "power2.out" });
+    gsap.from(this.$refs.projectDescription, { opacity: 0, y: 0, duration: 2, ease: "power2.out" });
+    gsap.from(this.$refs.details, { opacity: 0, y: 0, duration: 2, ease: "power2.out" });
+
   }
 };
 </script>
