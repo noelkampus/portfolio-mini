@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "optimize-images": "imagemin public/**/*.{jpg,png} --plugin=mozjpeg --plugin=pngquant --out-dir=public",
     "build": "npm run optimize-images && vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix",
-    "format": "prettier --write src/",
-    "optimize-images": "npx imagemin public/**/*.{jpg,png,svg} --plugin=mozjpeg --plugin=pngquant --plugin=svgo --out-dir=public"
+    "format": "prettier --write src/"
   },
   "dependencies": {
     "@vercel/analytics": "^1.4.1",
@@ -25,6 +25,7 @@
     "eslint": "^9.14.0",
     "eslint-plugin-vue": "^9.30.0",
     "imagemin": "^9.0.1",
+    "imagemin-cli": "^8.0.0",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^10.0.0",
     "imagemin-svgo": "^11.0.1",
