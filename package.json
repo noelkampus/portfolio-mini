@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "optimize-images": "imagemin public/**/*.{png} --plugin=pngquant --out-dir=public",
-    "build": "npm run optimize-images && vite build",
+    "optimize-images": "imagemin public/**/*.{jpg,png} --plugin=mozjpeg --plugin=pngquant --out-dir=public",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
