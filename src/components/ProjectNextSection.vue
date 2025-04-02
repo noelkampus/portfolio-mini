@@ -2,7 +2,8 @@
   <SectionFiller />
   <div v-if="project" class="project-next-section__wrapper">
     <p class="project-content-text-section__title">Next Projects</p>
-    <ProjectCard v-for="project in nextProjects" :key="project.id" :project="project" @click="reloadPage(project.id)" />
+    <ProjectCard v-for="project in filteredNextProjects" :key="project.id" :project="project"
+      @click="reloadPage(project.id)" />
   </div>
   <SectionFiller />
 </template>
@@ -19,6 +20,11 @@ export default {
       project: null,
       nextProjects: []
     };
+  },
+  computed: {
+    filteredNextProjects() {
+      return this.nextProjects.filter(project => project.label !== 'rnd');
+    }
   },
   created() {
     this.loadProjectData();

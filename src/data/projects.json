@@ -71,37 +71,42 @@
     "result": "We’re envisioning this interaction by reversing roles with a buoy which typically floats near a shore, and place it on land in a way that mimics the motions and playfulness of the waves. The buoy invites us to experience the forces of its ecosystem in a multisensory way. How do these currents interact with the weight of the buoy? What does it need to keep it in balance? How do sounds behave as they travel through the liquid? This exploration aims to challenge our perspective and offer a speculative view into what it feels like to be at the ecotone of the terrestrial and aquatic zones."
   },
   {
-    "id": 3,
+    "id": 5,
     "rnd": false,
-    "size": "small",
+    "size": "medium",
 
-    "title": "UpCircle",
-    "tag": "Digital Product Design",
-    "coverImage": "/images/test-mockup4.jpg",
+    "title": "Toxic Relation",
+    "tag": "Data Visualization",
+    "coverImage": "/images/test2-img.jpg",
 
-    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "challenge": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "description": "A visualization of the cashflow of the swiss financial market in the fossil fuel industry. The Swiss financial market invests 84 billion Swiss francs in fossil fuels. Many Swiss people don't know how much money is invested or what else it could be used for.",
+    "challenge": "We’re used to thinking in terms of money—we understand costs and make trade-offs accordingly. But carbon is different: it's invisible, making it much harder to track or manage. This project addresses that gap by designing a website that clearly presents the carbon footprint of everyday consumer goods on a per capita basis.",
 
-    "role": "Concept, Product Design, Exhibition Design",
+    "role": "Research, Concept, Prototype, Web Development (d3.js)",
     "client": "ZHdK",
-    "date": "September 24 – October 24",
-    "contributors": "Nico Frey, Joel Staub",
-    "downloadTitle": "Full Documentation",
-    "downloadLink": "https://www.google.com",
+    "date": "November 24 – December 24",
+    "downloadTitle": "Live Demo",
+    "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
 
-    "image1": "/images/test2-img.jpg",
-    "image2": "/images/test2-img.jpg",
+    "image1": "/images/img-toxic-relation-image-4.jpg",
+    "image2": "/images/img-toxic-relation-image-1.jpg",
+    "image3": "/images/img-toxic-relation-image-3.jpg",
+    "image5": "/images/img-toxic-relation-image-2.jpg",
+    "image": "/images/img-toxic-relation-image-5.jpg",
 
-    "imageGallery1": "/images/test-img.jpg",
-    "imageGallery2": "/images/test-img.jpg",
-    "imageGallery3": "/images/test-img.jpg",
+    "imageGallery1": "/images/img-toxic-relation-process-1.jpg",
+    "imageGallery2": "/images/img-toxic-relation-process-2.jpg",
+    "imageGallery3": "/images/img-toxic-relation-process-3.jpg",
+    "imageGallery4": "/images/img-toxic-relation-process-4.jpg",
+    "imageGallery5": "/images/img-toxic-relation-process-6.jpg",
+    "imageGallery6": "/images/img-toxic-relation-process-5.jpg",
 
     "fullscreenImage": "/images/test-img.jpg",
 
-    "fullscreenVideo": "/videos/test-vid.mp4",
+    "fullscreenVideo": "/videos/vid-toxic-relation.mp4",
 
-    "process": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "result": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    "process": "The project was developed through various prototyping stages. The concept was discussed during mentoring sessions. Early on, I focused on a specific dataset, which allowed me to start working on a suitable concept from the beginning. My initial idea was an interaction concept for a touch device. However, I eventually decided to abandon this direction, as it no longer provided a meaningful added value in terms of data visualization.",
+    "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have."
   },
   {
     "id": 4,
@@ -141,44 +146,6 @@
 
     "process": "Starting from the theme of ecosystems and continuing with the fields of neighbourhood and microbiomes as systems in a city, we decided to create a project for a block environment \nlinked to the construction of microbiomes. For our initial findings, it was important to conduct interviews and surveys about neighbourhoods within block buildings. We were interested in how architecture influences activities in a living building and how it enables or disables interactions. How can we disrupt these structures and patterns? In our case, the residents were always using the lift, the space for a possible meeting place was the bare minimum. So we had to find a place where our project could be placed without being in the way. We wanted to come up with a project that wouldn't take up too much of the neighbours' time.",
     "result": "After testing various ideas, we decided to create a branding for the building—something residents could identify with and feel part of. It doesn’t require active participation but offers a shared identity they can use if they want to. Just by being present and sharing the idea, we connected with neighbours who appreciated the initiative. We chose “44” as a symbol for the block and designed a flexible grid that can be adapted for other buildings. We may not change the building’s structure, but we can reshape how people see it—giving identity to both the place and its community."
-  },
-  {
-    "id": 5,
-    "rnd": false,
-    "size": "medium",
-
-    "title": "Toxic Relation",
-    "tag": "Data Visualization",
-    "coverImage": "/images/test2-img.jpg",
-
-    "description": "A visualization of the cashflow of the swiss financial market in the fossil fuel industry. The Swiss financial market invests 84 billion Swiss francs in fossil fuels. Many Swiss people don't know how much money is invested or what else it could be used for.",
-    "challenge": "We’re used to thinking in terms of money—we understand costs and make trade-offs accordingly. But carbon is different: it's invisible, making it much harder to track or manage. This project addresses that gap by designing a website that clearly presents the carbon footprint of everyday consumer goods on a per capita basis.",
-
-    "role": "Research, Concept, Prototype, Web Development (d3.js)",
-    "client": "ZHdK",
-    "date": "November 24 – December 24",
-    "downloadTitle": "Live Demo",
-    "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
-
-    "image1": "/images/img-toxic-relation-image-4.jpg",
-    "image2": "/images/img-toxic-relation-image-1.jpg",
-    "image3": "/images/img-toxic-relation-image-3.jpg",
-    "image5": "/images/img-toxic-relation-image-2.jpg",
-    "image": "/images/img-toxic-relation-image-5.jpg",
-
-    "imageGallery1": "/images/img-toxic-relation-process-1.jpg",
-    "imageGallery2": "/images/img-toxic-relation-process-2.jpg",
-    "imageGallery3": "/images/img-toxic-relation-process-3.jpg",
-    "imageGallery4": "/images/img-toxic-relation-process-4.jpg",
-    "imageGallery5": "/images/img-toxic-relation-process-6.jpg",
-    "imageGallery6": "/images/img-toxic-relation-process-5.jpg",
-
-    "fullscreenImage": "/images/test-img.jpg",
-
-    "fullscreenVideo": "/videos/vid-toxic-relation.mp4",
-
-    "process": "The project was developed through various prototyping stages. The concept was discussed during mentoring sessions. Early on, I focused on a specific dataset, which allowed me to start working on a suitable concept from the beginning. My initial idea was an interaction concept for a touch device. However, I eventually decided to abandon this direction, as it no longer provided a meaningful added value in terms of data visualization.",
-    "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have."
   },
   {
     "id": 6,
@@ -224,10 +191,10 @@
 
     "title": "The bed as a tool",
     "tag": "Health Design Report",
-    "coverImage": "/images/img-kleinkram-cover.jpg",
+    "coverImage": "/images/img-bed-cover.jpg",
 
-    "description": "This project is an open-source platform for organizing and managing robot data in BAG and MCAP formats. It supports labs working across multiple missions, projects, and teams.",
-    "challenge": "The challenge was to design and build a platform to replace the current use of Google Drive for managing .bag and .mcap files. The solution needed to be open-source, flexible, and support collaboration across teams with different roles and requirements. My role focused on crafting the product experience and developing a reusable UI component library to support the engineering team and ensure consistency across the application.",
+    "description": "The Bed as a Tool explores the evolving role of the intensive care bed through the lens of design, care, and technology. Based on trend analysis, interviews, shadowing, and desk research, I contributed a chapter to the first Health Design Report focusing on current and future developments around ICU beds. The work includes expert insights from healthcare, design, and sound, and experiments with AI-generated imagery to imagine alternative futures.",
+    "challenge": "The biggest challenge was balancing multiple perspectives—especially integrating the often-overlooked viewpoint of care alongside design. Within just three weeks, I planned and conducted interviews, wrote the full chapter, and took on the editorial responsibilities for the publication.",
 
     "role": "Research, Writing, Editorial Design",
     "client": "ZHdK",
@@ -236,26 +203,23 @@
     "downloadTitle": "Download Report",
     "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
 
-    "image1": "/images/img-kleinkram-image-2.jpg",
-    "image2": "/images/img-kleinkram-image-3.jpg",
-    "image3": "/images/img-kleinkram-image-4.jpg",
-    "image4": "/images/img-kleinkram-image-5.jpg",
-    "image5": "/images/img-kleinkram-image-6.jpg",
-    "image6": "/images/img-kleinkram-image-7.jpg",
-    "image7": "/images/img-kleinkram-image-8.jpg",
-    "image8": "/images/img-kleinkram-image-9.jpg",
+    "image1": "/images/img-bed-image-2.jpg",
+    "image2": "/images/img-bed-image-3.jpg",
+    "image3": "/images/img-bed-image-4.jpg",
+    "image4": "/images/img-bed-image-5.jpg",
+    "image5": "/images/img-bed-image-6.jpg",
+    "image6": "/images/img-bed-image-7.jpg",
+    "image7": "/images/img-bed-image-8.jpg",
+    "image8": "/images/img-bed-image-1.jpg",
 
-    "imageGallery1": "/images/img-kleinkram-process-1.jpg",
-    "imageGallery2": "/images/img-kleinkram-process-2.jpg",
-    "imageGallery3": "/images/img-kleinkram-process-3.jpg",
-    "imageGallery4": "/images/img-kleinkram-process-4.jpg",
-    "imageGallery5": "/images/img-kleinkram-process-5.jpg",
-    "imageGallery6": "/images/img-kleinkram-process-6.jpg",
+    "imageGallery1": "/images/img-bed-process-1.jpg",
+    "imageGallery2": "/images/img-bed-process-2.jpg",
+    "imageGallery3": "/images/img-bed-process-3.jpg",
 
     "fullscreenImage": "/images/test-img.jpg",
 
-    "process": "The project was developed through various prototyping stages. The concept was discussed during mentoring sessions. Early on, I focused on a specific dataset, which allowed me to start working on a suitable concept from the beginning. My initial idea was an interaction concept for a touch device. However, I eventually decided to abandon this direction, as it no longer provided a meaningful added value in terms of data visualization.",
-    "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have."
+    "process": "The process was an intense deep dive into a complex and fascinating topic, combining research, fieldwork, and critical reflection. I accompanied design researchers and shadowed staff in an intensive care unit to gain firsthand insights. While I experimented with AI-generated images to explore future scenarios, the results were underwhelming—next time, I’d take a different creative approach.",
+    "result": "The result is a multi-layered exploration of intensive care beds, enriched by perspectives from sound design, care, and technology. The expert interviews offered valuable and contrasting insights, highlighting both current challenges and future potentials in the ICU context."
   },
   {
     "id": 8,
@@ -301,36 +265,42 @@
 
     "title": "CSH 4000",
     "tag": "Health Speculation",
-    "coverImage": "/images/img-blocksack-cover.jpg",
+    "coverImage": "/images/img-csh-4000-cover.jpg",
 
-    "description": "Blocksack is a community building project aimed at fostering stronger bonds within block living environments. The upcycled bag serves as an identity for the building, connecting neighbors through shared bags. Its purpose is to enhance neighborly connections, reduce anonymity, and spark conversations, ultimately cultivating a positive environment imbued with pride and connection.",
-    "challenge": "The shore typically marks the human boundary to the aquatic world. A world that we experience through a land-centric lens due to our nature as terrestrial organisms. Our understanding of the shore is shaped by standing on solid ground, looking and listening out at the water.  But how might we experience this interaction from the other perspective, looking back from the water towards the land?",
+    "description": "CSH 4000 is a speculative design project that explores the concept of \"Hospital at Home in 2065\", where surgical procedures are performed by autonomous robots in the domestic space. As the boundaries between clinic and home blur, the project raises critical questions about care, control, and inequality in a highly technological healthcare system. By envisioning a near-future scenario, CSH 4000 invites reflection on who benefits from medical innovation-and who is left behind.",
+    "challenge": "The challenge was to develop a speculative future scenario around the bed. Building on previous research into intensive care, I started within the hospital environment and, following a trend analysis, shifted the focus to emerging technologies and the concept of \"hospital at home\". This transition raised critical questions about how care might be reimagined when the bed becomes both a place of rest and a place of intervention.",
 
     "role": "Research, Concept, Product Design, Exhibition Design",
     "client": "ZHdK",
     "date": "February 25 – April 25",
 
-    "image1": "/images/img-blocksack-image-2.jpg",
-    "image2": "/images/img-blocksack-image-1.jpg",
-    "image3": "/images/img-blocksack-image-3.jpg",
-    "image4": "/images/img-blocksack-image-4.jpg",
-    "image5": "/images/img-blocksack-image-5.jpg",
+    "exhibitionName": "IM UM AM BETT",
+    "exhibitionLocation": "Stapferhaus, Lenzburg",
+    "exhibitionYear": "April 2025",
 
-    "imageGallery1": "/images/img-blocksack-process-8.jpg",
-    "imageGallery2": "/images/img-blocksack-process-1.jpg",
-    "imageGallery3": "/images/img-blocksack-process-2.jpg",
-    "imageGallery4": "/images/img-blocksack-process-3.jpg",
-    "imageGallery5": "/images/img-blocksack-process-4.jpg",
-    "imageGallery6": "/images/img-blocksack-process-5.jpg",
-    "imageGallery7": "/images/img-blocksack-process-6.jpg",
-    "imageGallery9": "/images/img-blocksack-process-7.jpg",
+    "image1": "/images/img-csh-4000-image-1.jpg",
+    "image2": "/images/img-csh-4000-image-2.jpg",
+    "image3": "/images/img-csh-4000-image-3.jpg",
+    "image4": "/images/img-csh-4000-image-4.jpg",
+    "image5": "/images/img-csh-4000-image-5.jpg",
+    "image6": "/images/img-csh-4000-image-6.jpg",
+    "image7": "/images/img-csh-4000-image-7.jpg",
+    "image8": "/images/img-csh-4000-image-8.jpg",
+
+    "imageGallery1": "/images/img-csh-4000-process-1.jpg",
+    "imageGallery2": "/images/img-csh-4000-process-2.jpg",
+    "imageGallery3": "/images/img-csh-4000-process-3.jpg",
+    "imageGallery4": "/images/img-csh-4000-process-4.jpg",
+    "imageGallery5": "/images/img-csh-4000-process-5.jpg",
+    "imageGallery6": "/images/img-csh-4000-process-6.jpg",
+    "imageGallery7": "/images/img-csh-4000-process-7.jpg",
+    "imageGallery8": "/images/img-csh-4000-process-8.jpg",
+    "imageGallery9": "/images/img-csh-4000-process-9.jpg",
 
     "fullscreenImage": "/images/test-img.jpg",
 
-    "fullscreenVideo": "/videos/vid-blocksack.mp4",
-
-    "process": "Starting from the theme of ecosystems and continuing with the fields of neighbourhood and microbiomes as systems in a city, we decided to create a project for a block environment \nlinked to the construction of microbiomes. For our initial findings, it was important to conduct interviews and surveys about neighbourhoods within block buildings. We were interested in how architecture influences activities in a living building and how it enables or disables interactions. How can we disrupt these structures and patterns? In our case, the residents were always using the lift, the space for a possible meeting place was the bare minimum. So we had to find a place where our project could be placed without being in the way. We wanted to come up with a project that wouldn't take up too much of the neighbours' time.",
-    "result": "We’re envisioning this interaction by reversing roles with a buoy which typically floats near a shore, and place it on land in a way that mimics the motions and playfulness of the waves. The buoy invites us to experience the forces of its ecosystem in a multisensory way. How do these currents interact with the weight of the buoy? What does it need to keep it in balance? How do sounds behave as they travel through the liquid? This exploration aims to challenge our perspective and offer a speculative view into what it feels like to be at the ecotone of the terrestrial and aquatic zones."
+    "process": "I started by developing a rough future scenario using tools like the Futures Cone and classic trend research. In parallel, I began to create early prototypes - using making as a way of thinking and exploring ideas. These prototypes gradually evolved into a high-fidelity cardboard model with two 8x8 LED matrices connected to an Arduino to animate the robot's heart-shaped eyes. After all, every robot needs a face-and in this case, one that reflects caring through emotion.",
+    "result": "The result is a high-fidelity cardboard prototype that visualizes a speculative future scenario of \"Hospital at Home in 2065,\" exploring how heart surgeries could be performed at home. Beyond illustrating a technological possibility, the prototype serves as a conversation starter - inviting critical reflection on broader questions of care, access, and accountability in future healthcare systems."
   },
   {
     "id": 10,

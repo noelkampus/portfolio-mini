@@ -28,6 +28,12 @@
         <p>Date</p>
         <p>{{ project.date }}</p>
       </div>
+      <div v-if="project.exhibitionName" class="project-details__item">
+        <p>Exhibition</p>
+        <p>{{ project.exhibitionName }}</p>
+        <p>{{ project.exhibitionLocation }}</p>
+        <p>{{ project.exhibitionYear }}</p>
+      </div>
       <div v-if="project.live" class="project-details__item">
         <p>Live</p>
         <a :href="project.live" target="_blank" rel="noopener noreferrer">{{ project.live }}</a>
