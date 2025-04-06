@@ -7,33 +7,33 @@
 
 /* Responsive design */
 @media (max-width: $breakpoint-xl) {
-  html {
-    background-color: red;
-  }
+  // html {
+  //   background-color: red;
+  // }
 }
 
 @media (max-width: $breakpoint-lg) {
   $grid-cells: 4;
 
-  html {
-    background-color: blue;
-  }
+  // html {
+  //   background-color: blue;
+  // }
 }
 
 @media (max-width: $breakpoint-md) {
   $grid-cells: 3;
 
-  html {
-    background-color: purple;
-  }
+  // html {
+  //   background-color: purple;
+  // }
 }
 
 @media (max-width: $breakpoint-sm) {
   $grid-cells: 2;
 
-  html {
-    background-color: white;
-  }
+  // html {
+  //   background-color: white;
+  // }
 
   #app {
     padding: 1rem;
