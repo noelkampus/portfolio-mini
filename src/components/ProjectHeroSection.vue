@@ -3,6 +3,7 @@
     <h4 ref="heroText" class="project-hero-section__project-title">{{ project.title }}</h4>
     <div ref="projectDescription" class="project-hero-section__project-description">
       <h4>{{ project.description }}</h4>
+      <img v-if="project.coverImage" :src="project.coverImage" class="mobile-cover-image" />
       <p>{{ project.challenge }}</p>
     </div>
 
@@ -106,6 +107,12 @@ a {
   text-decoration: underline;
 }
 
+.mobile-cover-image {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: $breakpoint-xl) {
   $grid-cells: 5;
 
@@ -157,6 +164,12 @@ a {
   .project-hero-section__project-description {
     row-gap: $spacing-xl;
   }
+
+  .mobile-cover-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: $breakpoint-sm) {
@@ -171,6 +184,12 @@ a {
 
   .project-hero-section__project-description {
     row-gap: $spacing-xl;
+  }
+
+  .mobile-cover-image {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 }
 </style>

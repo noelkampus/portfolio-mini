@@ -1,6 +1,8 @@
 <template>
   <div v-if="project" class="project-content-section__wrapper">
-    <projectImageSeries :source1="project.coverImage" :source2="project.image1" :source3="project.image2" />
+    <projectImageSeries class="desktop-version" :source1="project.coverImage" :source2="project.image1"
+      :source3="project.image2" />
+    <projectImageSeries class="mobile-version" :source2="project.image1" :source3="project.image2" />
     <projectImageSeries :source1="project.image3" :source2="project.image4" :source3="project.image5"
       v-if="project.image3" />
     <projectImageSeries :source1="project.image6" :source2="project.image7" :source3="project.image8"
@@ -49,5 +51,29 @@ export default {
   display: flex;
   flex-direction: column;
   row-gap: $spacing-lg;
+}
+
+.mobile-version {
+  display: none;
+}
+
+@media (max-width: $breakpoint-md) {
+  .mobile-version {
+    display: block;
+  }
+
+  .desktop-version {
+    display: none;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .mobile-version {
+    display: block;
+  }
+
+  .desktop-version {
+    display: none;
+  }
 }
 </style>
