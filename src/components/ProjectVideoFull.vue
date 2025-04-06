@@ -1,7 +1,7 @@
 <template>
   <div class="project-video-full__wrapper" v-if="project.fullscreenVideo">
     <video ref="video" :src="project.fullscreenVideo" class="project-video-full__video" @timeupdate="updateProgress"
-      @play="onPlay" @pause="onPause" autoplay loop muted></video>
+      @play="onPlay" @pause="onPause" :autoplay="!isSmallScreen" loop muted></video>
     <div class="controls">
       <button @click="togglePlayPause">{{ isPlaying ? 'Pause' : 'Play' }}</button>
       <div class="progress-bar" @click="seek($event)">
@@ -21,12 +21,18 @@ export default {
       project: null,
       progress: 0,
       isPlaying: false,
-      isMuted: true // Set initial state to muted
+      isMuted: true, // Set initial state to muted
+      isSmallScreen: false
     };
   },
   created() {
     const projectId = parseInt(this.$route.params.id, 10);
     this.project = projectsData.find((p) => p.id === projectId);
+    this.checkScreenSize();
+    window.addEventListener("resize", this.checkScreenSize);
+  },
+  beforeUnmount() {
+    window.removeEventListener("resize", this.checkScreenSize);
   },
   methods: {
     playVideo() {
@@ -63,6 +69,10 @@ export default {
       const video = this.$refs.video;
       this.isMuted = !this.isMuted;
       video.muted = this.isMuted;
+    },
+    checkScreenSize() {
+      const width = window.innerWidth;
+      this.isSmallScreen = width <= 768; // Adjust breakpoint for md/sm
     }
   }
 };
