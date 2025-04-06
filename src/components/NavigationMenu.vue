@@ -1,7 +1,7 @@
 <template>
   <div class="nav-wrapper">
     <div class="nav-wrapper__logo">
-      <router-link to="/" class="nav-text">Noel Kampus</router-link>
+      <router-link to="/" class="nav-text">Noel Kampus [BETA]</router-link>
       <span class="nav-text">Design + Technology</span>
     </div>
     <div class="nav-wrapper__info">
