@@ -5,6 +5,6 @@ import OptimizedImage from './components/OptimizedImage.vue'
 
 const app = createApp(App)
 
-app.component('OptimizedImage', OptimizedImage) // <-- this replaces ALL <img> tags globally
+app.component('img', OptimizedImage) // <-- this replaces ALL <img> tags globally
 
 createApp(App).use(router).mount('#app')
