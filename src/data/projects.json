@@ -6,7 +6,7 @@
 
     "title": "Tribute",
     "tag": "Robotics / AI",
-    "coverImage": "/images/img-tribute-cover.jpg",
+    "coverImage": "/images/img-tribute-cover.avif",
 
     "description": "Years in the future, when AI has outlived the human species, it will search for the remnants of its predecessors. In our project, we give ourselves, the last humans, the chance to create a fossil of our existence.",
     "challenge": "This project explores AI and the afterlife by designing a physical object that embodies a deceased entity’s personality. Using OpenAI’s API, we integrate a Large-Language-Object (LLO) to enable interaction through speech, motion, or sensors. The focus is on form, expression, and meaningful AI-driven responses.",
@@ -19,14 +19,14 @@
     "downloadTitle": "Github Repository",
     "downloadLink": "https://github.com/nico-frey/2410_vectorizer-2",
 
-    "image1": "/images/img-tribute-image-1.jpg",
-    "image2": "/images/img-tribute-image-2.jpg",
-    "image3": "/images/img-tribute-image-3.jpg",
-    "image5": "/images/img-tribute-image-4.jpg",
+    "image1": "/images/img-tribute-image-1.avif",
+    "image2": "/images/img-tribute-image-2.avif",
+    "image3": "/images/img-tribute-image-3.avif",
+    "image5": "/images/img-tribute-image-4.avif",
 
-    "imageGallery1": "/images/img-tribute-process-1.jpg",
-    "imageGallery2": "/images/img-tribute-process-2.jpg",
-    "imageGallery3": "/images/img-tribute-process-3.jpg",
+    "imageGallery1": "/images/img-tribute-process-1.avif",
+    "imageGallery2": "/images/img-tribute-process-2.avif",
+    "imageGallery3": "/images/img-tribute-process-3.avif",
 
     "fullscreenVideo": "/videos/vid-tribute.mp4",
 
@@ -40,7 +40,7 @@
 
     "title": "Bouyant",
     "tag": "Soft Architecture",
-    "coverImage": "/images/img-bouyant-cover.jpg",
+    "coverImage": "/images/img-bouyant-cover.avif",
 
     "description": "This project examines the interaction between land and water by placing a buoy on shore, allowing us to experience the aquatic world from its perspective. By mimicking the buoy’s movements, we engage with the ecosystem's forces, exploring how currents affect its balance and how sound travels through water. The aim is to challenge our terrestrial viewpoint and offer a unique insight into the ecotone where land meets water.",
     "challenge": "The shore typically marks the human boundary to the aquatic world. A world that we experience through a land-centric lens due to our nature as terrestrial organisms. Our understanding of the shore is shaped by standing on solid ground, looking and listening out at the water.  But how might we experience this interaction from the other perspective, looking back from the water towards the land?",
@@ -50,20 +50,20 @@
     "date": "September 24 – October 24",
     "contributors": "Nico Frey, Joel Staub",
 
-    "image1": "/images/img-bouyant-image-2.jpg",
-    "image2": "/images/img-bouyant-image-1.jpg",
-    "image3": "/images/img-bouyant-image-4.jpg",
-    "image4": "/images/img-bouyant-image-5.jpg",
-    "image5": "/images/img-bouyant-image-3.jpg",
+    "image1": "/images/img-bouyant-image-2.avif",
+    "image2": "/images/img-bouyant-image-1.avif",
+    "image3": "/images/img-bouyant-image-4.avif",
+    "image4": "/images/img-bouyant-image-5.avif",
+    "image5": "/images/img-bouyant-image-3.avif",
 
-    "imageGallery1": "/images/img-bouyant-process-1.jpg",
-    "imageGallery2": "/images/img-bouyant-process-4.jpg",
-    "imageGallery3": "/images/img-bouyant-process-2.jpg",
-    "imageGallery4": "/images/img-bouyant-process-5.jpg",
-    "imageGallery5": "/images/img-bouyant-process-3.jpg",
-    "imageGallery6": "/images/img-bouyant-process-6.jpg",
+    "imageGallery1": "/images/img-bouyant-process-1.avif",
+    "imageGallery2": "/images/img-bouyant-process-4.avif",
+    "imageGallery3": "/images/img-bouyant-process-2.avif",
+    "imageGallery4": "/images/img-bouyant-process-5.avif",
+    "imageGallery5": "/images/img-bouyant-process-3.avif",
+    "imageGallery6": "/images/img-bouyant-process-6.avif",
 
-    "fullscreenImage": "/images/test-img.jpg",
+    "fullscreenImage": "/images/test-img.avif",
 
     "fullscreenVideo": "/videos/vid-bouyant.mp4",
 
@@ -77,7 +77,7 @@
 
     "title": "Toxic Relation",
     "tag": "Data Visualization",
-    "coverImage": "/images/test2-img.jpg",
+    "coverImage": "/images/test2-img.avif",
 
     "description": "A visualization of the cashflow of the swiss financial market in the fossil fuel industry. The Swiss financial market invests 84 billion Swiss francs in fossil fuels. Many Swiss people don't know how much money is invested or what else it could be used for.",
     "challenge": "We’re used to thinking in terms of money—we understand costs and make trade-offs accordingly. But carbon is different: it's invisible, making it much harder to track or manage. This project addresses that gap by designing a website that clearly presents the carbon footprint of everyday consumer goods on a per capita basis.",
@@ -88,20 +88,20 @@
     "downloadTitle": "Live Demo",
     "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
 
-    "image1": "/images/img-toxic-relation-image-4.jpg",
-    "image2": "/images/img-toxic-relation-image-1.jpg",
-    "image3": "/images/img-toxic-relation-image-3.jpg",
-    "image5": "/images/img-toxic-relation-image-2.jpg",
-    "image": "/images/img-toxic-relation-image-5.jpg",
+    "image1": "/images/img-toxic-relation-image-4.avif",
+    "image2": "/images/img-toxic-relation-image-1.avif",
+    "image3": "/images/img-toxic-relation-image-3.avif",
+    "image5": "/images/img-toxic-relation-image-2.avif",
+    "image": "/images/img-toxic-relation-image-5.avif",
 
-    "imageGallery1": "/images/img-toxic-relation-process-1.jpg",
-    "imageGallery2": "/images/img-toxic-relation-process-2.jpg",
-    "imageGallery3": "/images/img-toxic-relation-process-3.jpg",
-    "imageGallery4": "/images/img-toxic-relation-process-4.jpg",
-    "imageGallery5": "/images/img-toxic-relation-process-6.jpg",
-    "imageGallery6": "/images/img-toxic-relation-process-5.jpg",
+    "imageGallery1": "/images/img-toxic-relation-process-1.avif",
+    "imageGallery2": "/images/img-toxic-relation-process-2.avif",
+    "imageGallery3": "/images/img-toxic-relation-process-3.avif",
+    "imageGallery4": "/images/img-toxic-relation-process-4.avif",
+    "imageGallery5": "/images/img-toxic-relation-process-6.avif",
+    "imageGallery6": "/images/img-toxic-relation-process-5.avif",
 
-    "fullscreenImage": "/images/test-img.jpg",
+    "fullscreenImage": "/images/test-img.avif",
 
     "fullscreenVideo": "/videos/vid-toxic-relation.mp4",
 
@@ -115,7 +115,7 @@
 
     "title": "Blocksack",
     "tag": "Social Design",
-    "coverImage": "/images/img-blocksack-cover.jpg",
+    "coverImage": "/images/img-blocksack-cover.avif",
 
     "description": "Blocksack is a community building project aimed at fostering stronger bonds within block living environments. The upcycled bag serves as an identity for the building, connecting neighbors through shared bags. Its purpose is to enhance neighborly connections, reduce anonymity, and spark conversations, ultimately cultivating a positive environment imbued with pride and connection.",
     "challenge": "In big cities, many people live in apartment blocks and often don’t know their neighbours or have poor relationships with them. Interviews revealed that shared spaces like staircases and laundry rooms are key points of interaction. We became interested in how these “in-between spaces” affect neighbourly relationships and decided to develop a project that helps residents connect and communicate better.",
@@ -125,22 +125,22 @@
     "date": "March 24 – April 24",
     "contributors": "Nadja Häfliger, Anna Senko, Elena Frei",
 
-    "image1": "/images/img-blocksack-image-2.jpg",
-    "image2": "/images/img-blocksack-image-1.jpg",
-    "image3": "/images/img-blocksack-image-3.jpg",
-    "image4": "/images/img-blocksack-image-4.jpg",
-    "image5": "/images/img-blocksack-image-5.jpg",
+    "image1": "/images/img-blocksack-image-2.avif",
+    "image2": "/images/img-blocksack-image-1.avif",
+    "image3": "/images/img-blocksack-image-3.avif",
+    "image4": "/images/img-blocksack-image-4.avif",
+    "image5": "/images/img-blocksack-image-5.avif",
 
-    "imageGallery1": "/images/img-blocksack-process-8.jpg",
-    "imageGallery2": "/images/img-blocksack-process-1.jpg",
-    "imageGallery3": "/images/img-blocksack-process-2.jpg",
-    "imageGallery4": "/images/img-blocksack-process-3.jpg",
-    "imageGallery5": "/images/img-blocksack-process-4.jpg",
-    "imageGallery6": "/images/img-blocksack-process-5.jpg",
-    "imageGallery7": "/images/img-blocksack-process-6.jpg",
-    "imageGallery9": "/images/img-blocksack-process-7.jpg",
+    "imageGallery1": "/images/img-blocksack-process-8.avif",
+    "imageGallery2": "/images/img-blocksack-process-1.avif",
+    "imageGallery3": "/images/img-blocksack-process-2.avif",
+    "imageGallery4": "/images/img-blocksack-process-3.avif",
+    "imageGallery5": "/images/img-blocksack-process-4.avif",
+    "imageGallery6": "/images/img-blocksack-process-5.avif",
+    "imageGallery7": "/images/img-blocksack-process-6.avif",
+    "imageGallery9": "/images/img-blocksack-process-7.avif",
 
-    "fullscreenImage": "/images/test-img.jpg",
+    "fullscreenImage": "/images/test-img.avif",
 
     "fullscreenVideo": "/videos/vid-blocksack.mp4",
 
@@ -154,7 +154,7 @@
 
     "title": "Kleinkram",
     "tag": "Digital Product Design",
-    "coverImage": "/images/img-kleinkram-cover.jpg",
+    "coverImage": "/images/img-kleinkram-cover.avif",
 
     "description": "This project is an open-source platform for organizing and managing robot data in BAG and MCAP formats. It supports labs working across multiple missions, projects, and teams.",
     "challenge": "The challenge was to design and build a platform to replace the current use of Google Drive for managing .bag and .mcap files. The solution needed to be open-source, flexible, and support collaboration across teams with different roles and requirements. My role focused on crafting the product experience and developing a reusable UI component library to support the engineering team and ensure consistency across the application.",
@@ -163,23 +163,23 @@
     "client": "ETH Zurich - Robotics Systems Lab",
     "date": "August 24 – September 24",
 
-    "image1": "/images/img-kleinkram-image-2.jpg",
-    "image2": "/images/img-kleinkram-image-3.jpg",
-    "image3": "/images/img-kleinkram-image-4.jpg",
-    "image4": "/images/img-kleinkram-image-5.jpg",
-    "image5": "/images/img-kleinkram-image-6.jpg",
-    "image6": "/images/img-kleinkram-image-7.jpg",
-    "image7": "/images/img-kleinkram-image-8.jpg",
-    "image8": "/images/img-kleinkram-image-9.jpg",
+    "image1": "/images/img-kleinkram-image-2.avif",
+    "image2": "/images/img-kleinkram-image-3.avif",
+    "image3": "/images/img-kleinkram-image-4.avif",
+    "image4": "/images/img-kleinkram-image-5.avif",
+    "image5": "/images/img-kleinkram-image-6.avif",
+    "image6": "/images/img-kleinkram-image-7.avif",
+    "image7": "/images/img-kleinkram-image-8.avif",
+    "image8": "/images/img-kleinkram-image-9.avif",
 
-    "imageGallery1": "/images/img-kleinkram-process-1.jpg",
-    "imageGallery2": "/images/img-kleinkram-process-2.jpg",
-    "imageGallery3": "/images/img-kleinkram-process-3.jpg",
-    "imageGallery4": "/images/img-kleinkram-process-4.jpg",
-    "imageGallery5": "/images/img-kleinkram-process-5.jpg",
-    "imageGallery6": "/images/img-kleinkram-process-6.jpg",
+    "imageGallery1": "/images/img-kleinkram-process-1.avif",
+    "imageGallery2": "/images/img-kleinkram-process-2.avif",
+    "imageGallery3": "/images/img-kleinkram-process-3.avif",
+    "imageGallery4": "/images/img-kleinkram-process-4.avif",
+    "imageGallery5": "/images/img-kleinkram-process-5.avif",
+    "imageGallery6": "/images/img-kleinkram-process-6.avif",
 
-    "fullscreenImage": "/images/test-img.jpg",
+    "fullscreenImage": "/images/test-img.avif",
 
     "process": "The project was developed through various prototyping stages. The concept was discussed during mentoring sessions. Early on, I focused on a specific dataset, which allowed me to start working on a suitable concept from the beginning. My initial idea was an interaction concept for a touch device. However, I eventually decided to abandon this direction, as it no longer provided a meaningful added value in terms of data visualization.",
     "result": "Toxic Relation visualizes the cash flows from the five largest Swiss investors in fossil fuels. The ten largest investments from each investor are visualized, allowing one to see exactly how much of the invested money flows into the respective sectors: oil, gas, and coal. To provide a future perspective, the final step shows what else could be built with the invested money and what positive impact this could have."
@@ -191,7 +191,7 @@
 
     "title": "The bed as a tool",
     "tag": "Health Design Report",
-    "coverImage": "/images/img-bed-cover.jpg",
+    "coverImage": "/images/img-bed-cover.avif",
 
     "description": "The Bed as a Tool explores the evolving role of the intensive care bed through the lens of design, care, and technology. Based on trend analysis, interviews, shadowing, and desk research, I contributed a chapter to the first Health Design Report focusing on current and future developments around ICU beds. The work includes expert insights from healthcare, design, and sound, and experiments with AI-generated imagery to imagine alternative futures.",
     "challenge": "The biggest challenge was balancing multiple perspectives—especially integrating the often-overlooked viewpoint of care alongside design. Within just three weeks, I planned and conducted interviews, wrote the full chapter, and took on the editorial responsibilities for the publication.",
@@ -203,20 +203,20 @@
     "downloadTitle": "Download Report",
     "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
 
-    "image1": "/images/img-bed-image-2.jpg",
-    "image2": "/images/img-bed-image-3.jpg",
-    "image3": "/images/img-bed-image-4.jpg",
-    "image4": "/images/img-bed-image-5.jpg",
-    "image5": "/images/img-bed-image-6.jpg",
-    "image6": "/images/img-bed-image-7.jpg",
-    "image7": "/images/img-bed-image-8.jpg",
-    "image8": "/images/img-bed-image-1.jpg",
+    "image1": "/images/img-bed-image-2.avif",
+    "image2": "/images/img-bed-image-3.avif",
+    "image3": "/images/img-bed-image-4.avif",
+    "image4": "/images/img-bed-image-5.avif",
+    "image5": "/images/img-bed-image-6.avif",
+    "image6": "/images/img-bed-image-7.avif",
+    "image7": "/images/img-bed-image-8.avif",
+    "image8": "/images/img-bed-image-1.avif",
 
-    "imageGallery1": "/images/img-bed-process-1.jpg",
-    "imageGallery2": "/images/img-bed-process-2.jpg",
-    "imageGallery3": "/images/img-bed-process-3.jpg",
+    "imageGallery1": "/images/img-bed-process-1.avif",
+    "imageGallery2": "/images/img-bed-process-2.avif",
+    "imageGallery3": "/images/img-bed-process-3.avif",
 
-    "fullscreenImage": "/images/test-img.jpg",
+    "fullscreenImage": "/images/test-img.avif",
 
     "process": "The process was an intense deep dive into a complex and fascinating topic, combining research, fieldwork, and critical reflection. I accompanied design researchers and shadowed staff in an intensive care unit to gain firsthand insights. While I experimented with AI-generated images to explore future scenarios, the results were underwhelming—next time, I’d take a different creative approach.",
     "result": "The result is a multi-layered exploration of intensive care beds, enriched by perspectives from sound design, care, and technology. The expert interviews offered valuable and contrasting insights, highlighting both current challenges and future potentials in the ICU context."
@@ -228,7 +228,7 @@
 
     "title": "Spelly",
     "tag": "Digital Product Design",
-    "coverImage": "/images/img-spelly-cover.jpg",
+    "coverImage": "/images/img-spelly-cover.avif",
 
     "description": "Spelly is a fun and educational app designed to help young children learn how to spell everyday objects. Through a variety of interactive activities—like a spelling game where kids practice spelling the names of common items—Spelly supports early literacy in an engaging way. The app offers real-time feedback and gentle corrections to help kids improve their spelling skills as they play.",
     "challenge": "One of the main challenges of the project was finding effective ways to keep kids engaged while learning to spell. Providing immediate, encouraging feedback was essential to maintain motivation and reinforce correct spelling. Another key consideration was designing the app to be flexible—offering both traditional on-screen activities and an optional AR experience to adapt to different learning environments and preferences.",
@@ -237,21 +237,21 @@
     "client": "Design School",
     "date": "February 21 – April 21",
 
-    "image1": "/images/img-spelly-image-1.jpg",
-    "image2": "/images/img-spelly-image-2.jpg",
-    "image3": "/images/img-spelly-image-3.jpg",
-    "image4": "/images/img-spelly-image-4.jpg",
-    "image5": "/images/img-spelly-image-5.jpg",
-    "image6": "/images/img-spelly-image-6.jpg",
-    "image7": "/images/img-spelly-image-7.jpg",
+    "image1": "/images/img-spelly-image-1.avif",
+    "image2": "/images/img-spelly-image-2.avif",
+    "image3": "/images/img-spelly-image-3.avif",
+    "image4": "/images/img-spelly-image-4.avif",
+    "image5": "/images/img-spelly-image-5.avif",
+    "image6": "/images/img-spelly-image-6.avif",
+    "image7": "/images/img-spelly-image-7.avif",
 
-    "imageGallery1": "/images/img-spelly-process-1.jpg",
-    "imageGallery2": "/images/img-spelly-process-2.jpg",
-    "imageGallery3": "/images/img-spelly-process-3.jpg",
-    "imageGallery4": "/images/img-spelly-process-4.jpg",
-    "imageGallery5": "/images/img-spelly-process-5.jpg",
+    "imageGallery1": "/images/img-spelly-process-1.avif",
+    "imageGallery2": "/images/img-spelly-process-2.avif",
+    "imageGallery3": "/images/img-spelly-process-3.avif",
+    "imageGallery4": "/images/img-spelly-process-4.avif",
+    "imageGallery5": "/images/img-spelly-process-5.avif",
 
-    "fullscreenImage": "/images/test-img.jpg",
+    "fullscreenImage": "/images/test-img.avif",
 
     "fullscreenVideo": "/videos/vid-spelly.mp4",
 
@@ -265,7 +265,7 @@
 
     "title": "CSH 4000",
     "tag": "Health Speculation",
-    "coverImage": "/images/img-csh-4000-cover.jpg",
+    "coverImage": "/images/img-csh-4000-cover.avif",
 
     "description": "CSH 4000 is a speculative design project that explores the concept of \"Hospital at Home in 2065\", where surgical procedures are performed by autonomous robots in the domestic space. As the boundaries between clinic and home blur, the project raises critical questions about care, control, and inequality in a highly technological healthcare system. By envisioning a near-future scenario, CSH 4000 invites reflection on who benefits from medical innovation-and who is left behind.",
     "challenge": "The challenge was to develop a speculative future scenario around the bed. Building on previous research into intensive care, I started within the hospital environment and, following a trend analysis, shifted the focus to emerging technologies and the concept of \"hospital at home\". This transition raised critical questions about how care might be reimagined when the bed becomes both a place of rest and a place of intervention.",
@@ -278,26 +278,26 @@
     "exhibitionLocation": "Stapferhaus, Lenzburg",
     "exhibitionYear": "April 2025",
 
-    "image1": "/images/img-csh-4000-image-1.jpg",
-    "image2": "/images/img-csh-4000-image-2.jpg",
-    "image3": "/images/img-csh-4000-image-3.jpg",
-    "image4": "/images/img-csh-4000-image-4.jpg",
-    "image5": "/images/img-csh-4000-image-5.jpg",
-    "image6": "/images/img-csh-4000-image-6.jpg",
-    "image7": "/images/img-csh-4000-image-7.jpg",
-    "image8": "/images/img-csh-4000-image-8.jpg",
+    "image1": "/images/img-csh-4000-image-1.avif",
+    "image2": "/images/img-csh-4000-image-2.avif",
+    "image3": "/images/img-csh-4000-image-3.avif",
+    "image4": "/images/img-csh-4000-image-4.avif",
+    "image5": "/images/img-csh-4000-image-5.avif",
+    "image6": "/images/img-csh-4000-image-6.avif",
+    "image7": "/images/img-csh-4000-image-7.avif",
+    "image8": "/images/img-csh-4000-image-8.avif",
 
-    "imageGallery1": "/images/img-csh-4000-process-1.jpg",
-    "imageGallery2": "/images/img-csh-4000-process-2.jpg",
-    "imageGallery3": "/images/img-csh-4000-process-3.jpg",
-    "imageGallery4": "/images/img-csh-4000-process-4.jpg",
-    "imageGallery5": "/images/img-csh-4000-process-5.jpg",
-    "imageGallery6": "/images/img-csh-4000-process-6.jpg",
-    "imageGallery7": "/images/img-csh-4000-process-7.jpg",
-    "imageGallery8": "/images/img-csh-4000-process-8.jpg",
-    "imageGallery9": "/images/img-csh-4000-process-9.jpg",
+    "imageGallery1": "/images/img-csh-4000-process-1.avif",
+    "imageGallery2": "/images/img-csh-4000-process-2.avif",
+    "imageGallery3": "/images/img-csh-4000-process-3.avif",
+    "imageGallery4": "/images/img-csh-4000-process-4.avif",
+    "imageGallery5": "/images/img-csh-4000-process-5.avif",
+    "imageGallery6": "/images/img-csh-4000-process-6.avif",
+    "imageGallery7": "/images/img-csh-4000-process-7.avif",
+    "imageGallery8": "/images/img-csh-4000-process-8.avif",
+    "imageGallery9": "/images/img-csh-4000-process-9.avif",
 
-    "fullscreenImage": "/images/test-img.jpg",
+    "fullscreenImage": "/images/test-img.avif",
 
     "process": "I started by developing a rough future scenario using tools like the Futures Cone and classic trend research. In parallel, I began to create early prototypes - using making as a way of thinking and exploring ideas. These prototypes gradually evolved into a high-fidelity cardboard model with two 8x8 LED matrices connected to an Arduino to animate the robot's heart-shaped eyes. After all, every robot needs a face-and in this case, one that reflects caring through emotion.",
     "result": "The result is a high-fidelity cardboard prototype that visualizes a speculative future scenario of \"Hospital at Home in 2065,\" exploring how heart surgeries could be performed at home. Beyond illustrating a technological possibility, the prototype serves as a conversation starter - inviting critical reflection on broader questions of care, access, and accountability in future healthcare systems."
@@ -309,10 +309,10 @@
 
     "title": "What color is your name?",
     "tag": "Experimental Interaction",
-    "coverImage": "/images/test-img.jpg",
+    "coverImage": "/images/test-img.avif",
 
     "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.jpg",
+    "image": "/assets/images/project-six.avif",
     "details": "Detailed information about Project Six."
   },
   {
@@ -322,10 +322,10 @@
 
     "title": "Traily",
     "tag": "Startup Founding",
-    "coverImage": "/images/test-img.jpg",
+    "coverImage": "/images/test-img.avif",
 
     "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.jpg",
+    "image": "/assets/images/project-six.avif",
     "details": "Detailed information about Project Six."
   }
 ]
