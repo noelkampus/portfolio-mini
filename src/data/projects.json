@@ -77,7 +77,7 @@
 
     "title": "Toxic Relation",
     "tag": "Data Visualization",
-    "coverImage": "/images/test2-img.avif",
+    "coverImage": "/images/img-toxic-relation-cover.avif",
 
     "description": "A visualization of the cashflow of the swiss financial market in the fossil fuel industry. The Swiss financial market invests 84 billion Swiss francs in fossil fuels. Many Swiss people don't know how much money is invested or what else it could be used for.",
     "challenge": "We’re used to thinking in terms of money—we understand costs and make trade-offs accordingly. But carbon is different: it's invisible, making it much harder to track or manage. This project addresses that gap by designing a website that clearly presents the carbon footprint of everyday consumer goods on a per capita basis.",
