@@ -2,8 +2,12 @@
   <SectionFiller />
   <div v-if="project" class="project-next-section__wrapper">
     <p class="project-content-text-section__title">Next Projects</p>
-    <ProjectCard v-for="project in filteredNextProjects" :key="project.id" :project="project"
-      @click="reloadPage(project.id)" />
+
+    <router-link v-for="project in filteredNextProjects" :key="project.id"
+      :to="{ name: 'ProjectPage', params: { id: project.id } }" class="project-card__link">
+      <ProjectCard :project="project" />
+    </router-link>
+
   </div>
   <SectionFiller />
 </template>
@@ -15,6 +19,12 @@ import ProjectCard from "./ProjectCard.vue";
 
 export default {
   components: { ProjectCard, SectionFiller },
+  props: {
+    projects: {
+      type: Array,
+      required: true
+    }
+  },
   data() {
     return {
       project: null,
@@ -26,7 +36,7 @@ export default {
       return this.nextProjects.filter(project => project.label !== 'rnd');
     }
   },
-  created() {
+  mounted() {
     this.loadProjectData();
   },
   watch: {
@@ -35,43 +45,17 @@ export default {
       handler() {
         this.loadProjectData();
       }
-    },
-    projects: {
-      deep: true,
-      handler() {
-        this.loadProjectData();
-      }
     }
   },
   methods: {
     loadProjectData() {
       const projectId = parseInt(this.$route.params.id, 10);
-      this.project = projectsData.find((p) => p.id === projectId);
+      this.project = projectsData.find(p => p.id === projectId);
       if (this.project) {
-        const currentIndex = projectsData.findIndex((p) => p.id === projectId);
+        const currentIndex = projectsData.findIndex(p => p.id === projectId);
         this.nextProjects = projectsData.slice(currentIndex + 1, currentIndex + 3);
       }
-    },
-    navigateToProject(projectId) {
-      if (this.project && this.project.id !== projectId) {
-        this.$router.push({ name: 'ProjectPage', params: { id: projectId } });
-      }
-    },
-    reloadPage(projectId) {
-      this.navigateToProject(projectId);
-      this.$nextTick(() => {
-        window.location.reload();
-      });
     }
-  },
-  props: {
-    projects: {
-      type: Array,
-      required: true
-    }
-  },
-  updated() {
-    this.loadProjectData();
   }
 };
 </script>
@@ -81,6 +65,11 @@ export default {
   display: grid;
   grid-template-columns: repeat($grid-cells, $grid-item-size);
   gap: $spacing-lg;
+}
+
+.project-card__link {
+  text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: $breakpoint-xl) {
@@ -99,21 +88,13 @@ export default {
   }
 }
 
-@media (max-width: $breakpoint-md) {
+@media (max-width: $breakpoint-md),
+(max-width: $breakpoint-sm) {
   .project-next-section__wrapper {
     display: flex;
     flex-direction: column;
     row-gap: $spacing-xl;
-    padding: 5vh 0 5vh 0;
-  }
-}
-
-@media (max-width: $breakpoint-sm) {
-  .project-next-section__wrapper {
-    display: flex;
-    flex-direction: column;
-    row-gap: $spacing-xl;
-    padding: 5vh 0 5vh 0;
+    padding: 5vh 0;
   }
 }
 </style>

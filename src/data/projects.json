@@ -298,31 +298,5 @@
 
     "process": "I started by developing a rough future scenario using tools like the Futures Cone and classic trend research. In parallel, I began to create early prototypes - using making as a way of thinking and exploring ideas. These prototypes gradually evolved into a high-fidelity cardboard model with two 8x8 LED matrices connected to an Arduino to animate the robot's heart-shaped eyes. After all, every robot needs a face-and in this case, one that reflects caring through emotion.",
     "result": "The result is a high-fidelity cardboard prototype that visualizes a speculative future scenario of \"Hospital at Home in 2065,\" exploring how heart surgeries could be performed at home. Beyond illustrating a technological possibility, the prototype serves as a conversation starter - inviting critical reflection on broader questions of care, access, and accountability in future healthcare systems."
-  },
-  {
-    "id": 10,
-    "rnd": true,
-    "size": "medium",
-
-    "title": "What color is your name?",
-    "tag": "Experimental Interaction",
-    "coverImage": "/images/test-img.avif",
-
-    "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.avif",
-    "details": "Detailed information about Project Six."
-  },
-  {
-    "id": 11,
-    "rnd": true,
-    "size": "medium",
-
-    "title": "Traily",
-    "tag": "Startup Founding",
-    "coverImage": "/images/test-img.avif",
-
-    "description": "A short description of Project Six.",
-    "image": "/assets/images/project-six.avif",
-    "details": "Detailed information about Project Six."
   }
 ]
