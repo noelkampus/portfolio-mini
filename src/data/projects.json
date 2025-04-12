@@ -200,9 +200,6 @@
     "client": "ZHdK",
     "date": "January 24",
 
-    "downloadTitle": "Download Report",
-    "downloadLink": "https://noelkampus.github.io/toxic-relation.ch/",
-
     "image1": "/images/img-bed-image-2.avif",
     "image2": "/images/img-bed-image-3.avif",
     "image3": "/images/img-bed-image-4.avif",
@@ -219,7 +216,7 @@
     "fullscreenImage": "/images/test-img.avif",
 
     "process": "The process was an intense deep dive into a complex and fascinating topic, combining research, fieldwork, and critical reflection. I accompanied design researchers and shadowed staff in an intensive care unit to gain firsthand insights. While I experimented with AI-generated images to explore future scenarios, the results were underwhelming—next time, I’d take a different creative approach.",
-    "result": "The result is a multi-layered exploration of intensive care beds, enriched by perspectives from sound design, care, and technology. The expert interviews offered valuable and contrasting insights, highlighting both current challenges and future potentials in the ICU context."
+    "result": "The result is a multi-layered exploration of intensive care beds, enriched by perspectives from sound design, care, and technology. The expert interviews offered valuable and contrasting insights, highlighting both current challenges and future potentials in the ICU context. [published text coming soon]"
   },
   {
     "id": 8,
